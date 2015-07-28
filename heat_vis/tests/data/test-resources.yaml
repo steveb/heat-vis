@@ -1,0 +1,1990 @@
+resources:
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/SwiftDevicesAndProxyConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-SwiftDevicesAndProxyConfig-bjg22xruz4eq/dbb602b4-a8d3-4975-a437-ee3b10dd343c',
+    rel: nested}
+  logical_resource_id: SwiftDevicesAndProxyConfig
+  physical_resource_id: dbb602b4-a8d3-4975-a437-ee3b10dd343c
+  required_by: [ObjectStorageSwiftDeployment, ControllerSwiftDeployment]
+  resource_name: SwiftDevicesAndProxyConfig
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::SwiftDevicesAndProxy::SoftwareConfig
+  updated_time: '2015-07-27T03:35:05Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-SwiftDevicesAndProxyConfig-bjg22xruz4eq/dbb602b4-a8d3-4975-a437-ee3b10dd343c/resources/SwiftDevicesAndProxyConfigImpl',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-SwiftDevicesAndProxyConfig-bjg22xruz4eq/dbb602b4-a8d3-4975-a437-ee3b10dd343c',
+    rel: stack}
+  logical_resource_id: SwiftDevicesAndProxyConfigImpl
+  parent_resource: SwiftDevicesAndProxyConfig
+  physical_resource_id: 7303f05a-3b5f-4ae1-9af2-17eb6dda3d6d
+  required_by: []
+  resource_name: SwiftDevicesAndProxyConfigImpl
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredConfig
+  updated_time: '2015-07-27T02:52:38Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/HorizonSecret',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  logical_resource_id: HorizonSecret
+  physical_resource_id: overcloud-HorizonSecret-tbfb6aitfm7g
+  required_by: [Controller]
+  resource_name: HorizonSecret
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::RandomString
+  updated_time: '2015-07-27T02:45:50Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/CephStorageAllNodesDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageAllNodesDeployment-3zaufpivs47y/80e352ab-717f-4cb0-9ebe-ad6186f7d093',
+    rel: nested}
+  logical_resource_id: CephStorageAllNodesDeployment
+  physical_resource_id: 80e352ab-717f-4cb0-9ebe-ad6186f7d093
+  required_by: [CephStorageNodesPostDeployment]
+  resource_name: CephStorageAllNodesDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:16Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ObjectStorageSwiftDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageSwiftDeployment-prz3bir4nutc/066602a2-b19e-48a9-9420-975a06b6bfc2',
+    rel: nested}
+  logical_resource_id: ObjectStorageSwiftDeployment
+  physical_resource_id: 066602a2-b19e-48a9-9420-975a06b6bfc2
+  required_by: [ObjectStorageNodesPostDeployment]
+  resource_name: ObjectStorageSwiftDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:09Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ControllerSwiftDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerSwiftDeployment-cbh2lfhrgulm/e3b71d48-7c78-4961-8db0-8efd7a5aaff4',
+    rel: nested}
+  logical_resource_id: ControllerSwiftDeployment
+  physical_resource_id: e3b71d48-7c78-4961-8db0-8efd7a5aaff4
+  required_by: [ControllerNodesPostDeployment]
+  resource_name: ControllerSwiftDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:12Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerSwiftDeployment-cbh2lfhrgulm/e3b71d48-7c78-4961-8db0-8efd7a5aaff4/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerSwiftDeployment-cbh2lfhrgulm/e3b71d48-7c78-4961-8db0-8efd7a5aaff4',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: ControllerSwiftDeployment
+  physical_resource_id: 4a162a90-e407-4f8e-8032-142005541e5c
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T02:52:42Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/Networks',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq/f3da9cac-e459-46e9-be81-add0b183d235',
+    rel: nested}
+  logical_resource_id: Networks
+  physical_resource_id: f3da9cac-e459-46e9-be81-add0b183d235
+  required_by: [StorageVirtualIP, PublicVirtualIP, BlockStorage, ControlVirtualIP,
+    StorageMgmtVirtualIP, ObjectStorage, Compute, InternalApiVirtualIP, RedisVirtualIP,
+    CephStorage, Controller]
+  resource_name: Networks
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Network
+  updated_time: '2015-07-27T03:33:35Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq/f3da9cac-e459-46e9-be81-add0b183d235/resources/StorageMgmtNetwork',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq/f3da9cac-e459-46e9-be81-add0b183d235',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq-StorageMgmtNetwork-3k3xo44vb4sh/ef3a5206-92d0-42cf-800a-36443e350a8f',
+    rel: nested}
+  logical_resource_id: StorageMgmtNetwork
+  parent_resource: Networks
+  physical_resource_id: ef3a5206-92d0-42cf-800a-36443e350a8f
+  required_by: []
+  resource_name: StorageMgmtNetwork
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Network::StorageMgmt
+  updated_time: '2015-07-27T03:33:39Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq/f3da9cac-e459-46e9-be81-add0b183d235/resources/ExternalNetwork',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq/f3da9cac-e459-46e9-be81-add0b183d235',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq-ExternalNetwork-hy5sxcnseg5x/66af5d2e-b1d3-4362-acbf-0495e6745be3',
+    rel: nested}
+  logical_resource_id: ExternalNetwork
+  parent_resource: Networks
+  physical_resource_id: 66af5d2e-b1d3-4362-acbf-0495e6745be3
+  required_by: []
+  resource_name: ExternalNetwork
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Network::External
+  updated_time: '2015-07-27T03:33:38Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq/f3da9cac-e459-46e9-be81-add0b183d235/resources/InternalNetwork',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq/f3da9cac-e459-46e9-be81-add0b183d235',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq-InternalNetwork-lg4culqdnjy6/1bbd8565-1e72-4d18-a8d3-b75d141cb57f',
+    rel: nested}
+  logical_resource_id: InternalNetwork
+  parent_resource: Networks
+  physical_resource_id: 1bbd8565-1e72-4d18-a8d3-b75d141cb57f
+  required_by: []
+  resource_name: InternalNetwork
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Network::InternalApi
+  updated_time: '2015-07-27T03:33:38Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq/f3da9cac-e459-46e9-be81-add0b183d235/resources/StorageNetwork',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq/f3da9cac-e459-46e9-be81-add0b183d235',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq-StorageNetwork-q4yawodxs2x6/ab569733-5707-4a0a-91be-e78bfe1bf799',
+    rel: nested}
+  logical_resource_id: StorageNetwork
+  parent_resource: Networks
+  physical_resource_id: ab569733-5707-4a0a-91be-e78bfe1bf799
+  required_by: []
+  resource_name: StorageNetwork
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Network::Storage
+  updated_time: '2015-07-27T03:33:40Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq/f3da9cac-e459-46e9-be81-add0b183d235/resources/TenantNetwork',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq/f3da9cac-e459-46e9-be81-add0b183d235',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq-TenantNetwork-lr3vtwgjn6qx/7f39feb2-bc97-401d-a1fc-852c346f4048',
+    rel: nested}
+  logical_resource_id: TenantNetwork
+  parent_resource: Networks
+  physical_resource_id: 7f39feb2-bc97-401d-a1fc-852c346f4048
+  required_by: []
+  resource_name: TenantNetwork
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Network::Tenant
+  updated_time: '2015-07-27T03:33:39Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/BlockStorageNodesPostDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-BlockStorageNodesPostDeployment-5ae4iiob77kp/789d3e28-7092-4bb9-8647-510a63918530',
+    rel: nested}
+  logical_resource_id: BlockStorageNodesPostDeployment
+  physical_resource_id: 789d3e28-7092-4bb9-8647-510a63918530
+  required_by: []
+  resource_name: BlockStorageNodesPostDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::BlockStoragePostDeployment
+  updated_time: '2015-07-27T03:36:34Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-BlockStorageNodesPostDeployment-5ae4iiob77kp/789d3e28-7092-4bb9-8647-510a63918530/resources/VolumePuppetConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-BlockStorageNodesPostDeployment-5ae4iiob77kp/789d3e28-7092-4bb9-8647-510a63918530',
+    rel: stack}
+  logical_resource_id: VolumePuppetConfig
+  parent_resource: BlockStorageNodesPostDeployment
+  physical_resource_id: 504a8c51-db86-40ba-8c62-e2a1b6a8cf39
+  required_by: [VolumeDeployment_Step1]
+  resource_name: VolumePuppetConfig
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::SoftwareConfig
+  updated_time: '2015-07-27T03:09:06Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-BlockStorageNodesPostDeployment-5ae4iiob77kp/789d3e28-7092-4bb9-8647-510a63918530/resources/VolumeDeployment_Step1',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-BlockStorageNodesPostDeployment-5ae4iiob77kp/789d3e28-7092-4bb9-8647-510a63918530',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-BlockStorageNodesPostDeployment-5ae4iiob77kp-VolumeDeployment_Step1-7iuiqq3kj3my/1f265ea0-e895-43d1-941e-61eeed656b19',
+    rel: nested}
+  logical_resource_id: VolumeDeployment_Step1
+  parent_resource: BlockStorageNodesPostDeployment
+  physical_resource_id: 1f265ea0-e895-43d1-941e-61eeed656b19
+  required_by: []
+  resource_name: VolumeDeployment_Step1
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:36:37Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/VipConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-VipConfig-xlqy4325vjze/2d30b916-c101-45e5-bf16-d3ff1e6a9b5e',
+    rel: nested}
+  logical_resource_id: VipConfig
+  physical_resource_id: 2d30b916-c101-45e5-bf16-d3ff1e6a9b5e
+  required_by: [VipDeployment]
+  resource_name: VipConfig
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::VipConfig
+  updated_time: '2015-07-27T03:33:38Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-VipConfig-xlqy4325vjze/2d30b916-c101-45e5-bf16-d3ff1e6a9b5e/resources/VipConfigImpl',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-VipConfig-xlqy4325vjze/2d30b916-c101-45e5-bf16-d3ff1e6a9b5e',
+    rel: stack}
+  logical_resource_id: VipConfigImpl
+  parent_resource: VipConfig
+  physical_resource_id: 70b2639b-8ce3-47a6-b4ab-da808fa53ce3
+  required_by: []
+  resource_name: VipConfigImpl
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredConfig
+  updated_time: '2015-07-27T02:45:53Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/CephStorageCephDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageCephDeployment-3rloblui42ca/2493855b-d79d-4571-9725-1d4e3f51d968',
+    rel: nested}
+  logical_resource_id: CephStorageCephDeployment
+  physical_resource_id: 2493855b-d79d-4571-9725-1d4e3f51d968
+  required_by: [CephStorageNodesPostDeployment]
+  resource_name: CephStorageCephDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:23Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/allNodesConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-allNodesConfig-hxsugtckqzuw/eb5e96c9-86a6-4052-8716-c69eb904c5db',
+    rel: nested}
+  logical_resource_id: allNodesConfig
+  physical_resource_id: eb5e96c9-86a6-4052-8716-c69eb904c5db
+  required_by: [ObjectStorageAllNodesDeployment, CephStorageAllNodesDeployment, ControllerAllNodesDeployment,
+    ComputeAllNodesDeployment, BlockStorageAllNodesDeployment]
+  resource_name: allNodesConfig
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::AllNodes::SoftwareConfig
+  updated_time: '2015-07-27T03:35:10Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-allNodesConfig-hxsugtckqzuw/eb5e96c9-86a6-4052-8716-c69eb904c5db/resources/allNodesConfigImpl',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-allNodesConfig-hxsugtckqzuw/eb5e96c9-86a6-4052-8716-c69eb904c5db',
+    rel: stack}
+  logical_resource_id: allNodesConfigImpl
+  parent_resource: allNodesConfig
+  physical_resource_id: 116bd828-337d-4996-a44c-eae695308263
+  required_by: []
+  resource_name: allNodesConfigImpl
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredConfig
+  updated_time: '2015-07-27T02:52:43Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ComputeNodesPostDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeNodesPostDeployment-hjqseaqis3l6/90570c02-946f-41c0-b32d-a34eb1f0490d',
+    rel: nested}
+  logical_resource_id: ComputeNodesPostDeployment
+  physical_resource_id: 90570c02-946f-41c0-b32d-a34eb1f0490d
+  required_by: []
+  resource_name: ComputeNodesPostDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::ComputePostDeployment
+  updated_time: '2015-07-27T03:35:30Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeNodesPostDeployment-hjqseaqis3l6/90570c02-946f-41c0-b32d-a34eb1f0490d/resources/ComputePuppetConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeNodesPostDeployment-hjqseaqis3l6/90570c02-946f-41c0-b32d-a34eb1f0490d',
+    rel: stack}
+  logical_resource_id: ComputePuppetConfig
+  parent_resource: ComputeNodesPostDeployment
+  physical_resource_id: 759f9437-f230-48e9-936c-d966c7585eec
+  required_by: [ComputePuppetDeployment]
+  resource_name: ComputePuppetConfig
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::SoftwareConfig
+  updated_time: '2015-07-27T02:53:12Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeNodesPostDeployment-hjqseaqis3l6/90570c02-946f-41c0-b32d-a34eb1f0490d/resources/ComputePuppetDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeNodesPostDeployment-hjqseaqis3l6/90570c02-946f-41c0-b32d-a34eb1f0490d',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeNodesPostDeployment-hjqseaqis3l6-ComputePuppetDeployment-n3fmgzovy3a3/301f0910-1eb0-4946-ac6b-ac0ee2b866d7',
+    rel: nested}
+  logical_resource_id: ComputePuppetDeployment
+  parent_resource: ComputeNodesPostDeployment
+  physical_resource_id: 301f0910-1eb0-4946-ac6b-ac0ee2b866d7
+  required_by: [ExtraConfig]
+  resource_name: ComputePuppetDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:34Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeNodesPostDeployment-hjqseaqis3l6-ComputePuppetDeployment-n3fmgzovy3a3/301f0910-1eb0-4946-ac6b-ac0ee2b866d7/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeNodesPostDeployment-hjqseaqis3l6-ComputePuppetDeployment-n3fmgzovy3a3/301f0910-1eb0-4946-ac6b-ac0ee2b866d7',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: ComputePuppetDeployment
+  physical_resource_id: 581099af-fda3-4c26-9cbc-ff9a40bdc8ff
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T02:53:12Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeNodesPostDeployment-hjqseaqis3l6/90570c02-946f-41c0-b32d-a34eb1f0490d/resources/ExtraConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeNodesPostDeployment-hjqseaqis3l6/90570c02-946f-41c0-b32d-a34eb1f0490d',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeNodesPostDeployment-hjqseaqis3l6-ExtraConfig-yazlxrwxau2h/93f71029-49c4-4f81-8595-a794a2114c9b',
+    rel: nested}
+  logical_resource_id: ExtraConfig
+  parent_resource: ComputeNodesPostDeployment
+  physical_resource_id: 93f71029-49c4-4f81-8595-a794a2114c9b
+  required_by: []
+  resource_name: ExtraConfig
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::NodeExtraConfigPost
+  updated_time: '2015-07-27T03:35:38Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ControllerIpListMap',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerIpListMap-xlwerb3usolw/d32fa083-7b92-4ac4-90a0-675046c40ad0',
+    rel: nested}
+  logical_resource_id: ControllerIpListMap
+  physical_resource_id: d32fa083-7b92-4ac4-90a0-675046c40ad0
+  required_by: [allNodesConfig, CephClusterConfig]
+  resource_name: ControllerIpListMap
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Network::Ports::NetIpListMap
+  updated_time: '2015-07-27T03:35:06Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/StorageVirtualIP',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-StorageVirtualIP-krudzeph4phk/5d79ad9c-d106-471b-90b1-892a6e9999e4',
+    rel: nested}
+  logical_resource_id: StorageVirtualIP
+  physical_resource_id: 5d79ad9c-d106-471b-90b1-892a6e9999e4
+  required_by: [VipDeployment, VipMap]
+  resource_name: StorageVirtualIP
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Controller::Ports::StoragePort
+  updated_time: '2015-07-27T03:33:49Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/InternalApiVirtualIP',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-InternalApiVirtualIP-b2rwjr3re3be/a3ec4d3e-eb38-4b79-9a31-8adf7574f05a',
+    rel: nested}
+  logical_resource_id: InternalApiVirtualIP
+  physical_resource_id: a3ec4d3e-eb38-4b79-9a31-8adf7574f05a
+  required_by: [VipDeployment, VipMap]
+  resource_name: InternalApiVirtualIP
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Controller::Ports::InternalApiPort
+  updated_time: '2015-07-27T03:33:52Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/BlockStorage',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-BlockStorage-uzbtezcfvrgk/ef47091f-5ce1-4d47-beca-a9d5f766be81',
+    rel: nested}
+  logical_resource_id: BlockStorage
+  physical_resource_id: ef47091f-5ce1-4d47-beca-a9d5f766be81
+  required_by: [allNodesConfig, BlockStorageNodesPostDeployment, BlockStorageAllNodesDeployment]
+  resource_name: BlockStorage
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::ResourceGroup
+  updated_time: '2015-07-27T03:34:02Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/RedisVirtualIP',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-RedisVirtualIP-na6wcq4tg2pr/44619bde-e86d-4db5-9884-8f0ec7f1408e',
+    rel: nested}
+  logical_resource_id: RedisVirtualIP
+  physical_resource_id: 44619bde-e86d-4db5-9884-8f0ec7f1408e
+  required_by: [Controller, VipDeployment]
+  resource_name: RedisVirtualIP
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Controller::Ports::RedisVipPort
+  updated_time: '2015-07-27T03:33:50Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-RedisVirtualIP-na6wcq4tg2pr/44619bde-e86d-4db5-9884-8f0ec7f1408e/resources/VipPort',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-RedisVirtualIP-na6wcq4tg2pr/44619bde-e86d-4db5-9884-8f0ec7f1408e',
+    rel: stack}
+  logical_resource_id: VipPort
+  parent_resource: RedisVirtualIP
+  physical_resource_id: d46652d4-9ac9-4275-b434-33c50881d9a5
+  required_by: []
+  resource_name: VipPort
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Neutron::Port
+  updated_time: '2015-07-27T02:46:01Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/PcsdPassword',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  logical_resource_id: PcsdPassword
+  physical_resource_id: overcloud-PcsdPassword-z4pt2edznu6t
+  required_by: [Controller]
+  resource_name: PcsdPassword
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::RandomString
+  updated_time: '2015-07-27T02:45:51Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/RabbitCookie',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  logical_resource_id: RabbitCookie
+  physical_resource_id: overcloud-RabbitCookie-t577dmlg6ktl
+  required_by: [Controller]
+  resource_name: RabbitCookie
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::RandomString
+  updated_time: '2015-07-27T02:45:50Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ControlVirtualIP',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  logical_resource_id: ControlVirtualIP
+  physical_resource_id: 5750fa09-d88f-464d-9305-a952db2409af
+  required_by: [StorageVirtualIP, BlockStorage, VipDeployment, StorageMgmtVirtualIP,
+    PublicVirtualIP, InternalApiVirtualIP, RedisVirtualIP, Controller]
+  resource_name: ControlVirtualIP
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Neutron::Port
+  updated_time: '2015-07-27T02:45:51Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/Controller',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7/9f20ac27-6443-4864-af29-d324e5f75821',
+    rel: nested}
+  logical_resource_id: Controller
+  physical_resource_id: 9f20ac27-6443-4864-af29-d324e5f75821
+  required_by: [ControllerIpListMap, ControllerClusterDeployment, ControllerClusterConfig,
+    SwiftDevicesAndProxyConfig, ControllerSwiftDeployment, VipDeployment, CephClusterConfig,
+    allNodesConfig, ControllerBootstrapNodeDeployment, ControllerNodesPostDeployment,
+    ControllerBootstrapNodeConfig, ControllerCephDeployment, ControllerAllNodesDeployment]
+  resource_name: Controller
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::ResourceGroup
+  updated_time: '2015-07-27T03:33:59Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7/9f20ac27-6443-4864-af29-d324e5f75821/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7/9f20ac27-6443-4864-af29-d324e5f75821',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: nested}
+  logical_resource_id: '0'
+  parent_resource: Controller
+  physical_resource_id: c68bdef7-c312-4b07-8519-c1d687a50e94
+  required_by: []
+  resource_name: '0'
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Controller
+  updated_time: '2015-07-27T03:34:01Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/NodeUserData',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NodeUserData-m4h6jzyxmyhi/ea98f006-e508-4ef5-aae7-5399db65cbb6',
+    rel: nested}
+  logical_resource_id: NodeUserData
+  parent_resource: '0'
+  physical_resource_id: ea98f006-e508-4ef5-aae7-5399db65cbb6
+  required_by: [Controller]
+  resource_name: NodeUserData
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::NodeUserData
+  updated_time: '2015-07-27T03:34:14Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NodeUserData-m4h6jzyxmyhi/ea98f006-e508-4ef5-aae7-5399db65cbb6/resources/userdata',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NodeUserData-m4h6jzyxmyhi/ea98f006-e508-4ef5-aae7-5399db65cbb6',
+    rel: stack}
+  logical_resource_id: userdata
+  parent_resource: NodeUserData
+  physical_resource_id: cf9fecd5-0aae-4e15-9877-284bc6752442
+  required_by: []
+  resource_name: userdata
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::MultipartMime
+  updated_time: '2015-07-27T02:46:13Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/ControllerExtraConfigPre',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-ControllerExtraConfigPre-h3ner334jqwp/f3dc73ce-67fa-4b7a-8445-ea7c48436996',
+    rel: nested}
+  logical_resource_id: ControllerExtraConfigPre
+  parent_resource: '0'
+  physical_resource_id: f3dc73ce-67fa-4b7a-8445-ea7c48436996
+  required_by: []
+  resource_name: ControllerExtraConfigPre
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::ControllerExtraConfigPre
+  updated_time: '2015-07-27T03:34:44Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/TenantPort',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-TenantPort-4kou5ci5rsv6/b3b6de19-e3e3-4a8d-8583-d90362707040',
+    rel: nested}
+  logical_resource_id: TenantPort
+  parent_resource: '0'
+  physical_resource_id: b3b6de19-e3e3-4a8d-8583-d90362707040
+  required_by: [NetIpSubnetMap, NetworkConfig, NetIpMap]
+  resource_name: TenantPort
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Controller::Ports::TenantPort
+  updated_time: '2015-07-27T03:34:29Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/ExternalPort',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-ExternalPort-b636bihajspu/435b6be2-15b0-4226-9c1a-2dff72a23da0',
+    rel: nested}
+  logical_resource_id: ExternalPort
+  parent_resource: '0'
+  physical_resource_id: 435b6be2-15b0-4226-9c1a-2dff72a23da0
+  required_by: [NetIpSubnetMap, NetworkConfig, NetIpMap]
+  resource_name: ExternalPort
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Controller::Ports::ExternalPort
+  updated_time: '2015-07-27T03:34:27Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-ExternalPort-b636bihajspu/435b6be2-15b0-4226-9c1a-2dff72a23da0/resources/VipPort',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-ExternalPort-b636bihajspu/435b6be2-15b0-4226-9c1a-2dff72a23da0',
+    rel: stack}
+  logical_resource_id: VipPort
+  parent_resource: ExternalPort
+  physical_resource_id: 9cb33519-f44c-4149-aef7-86c78876dda4
+  required_by: []
+  resource_name: VipPort
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Neutron::Port
+  updated_time: '2015-07-27T02:46:24Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/NetworkConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NetworkConfig-gcb6qxm2xft5/3ca88919-061b-42b8-a9a0-7a9e85347bff',
+    rel: nested}
+  logical_resource_id: NetworkConfig
+  parent_resource: '0'
+  physical_resource_id: 3ca88919-061b-42b8-a9a0-7a9e85347bff
+  required_by: [NetworkDeployment]
+  resource_name: NetworkConfig
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Controller::Net::SoftwareConfig
+  updated_time: '2015-07-27T03:34:37Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NetworkConfig-gcb6qxm2xft5/3ca88919-061b-42b8-a9a0-7a9e85347bff/resources/OsNetConfigImpl',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NetworkConfig-gcb6qxm2xft5/3ca88919-061b-42b8-a9a0-7a9e85347bff',
+    rel: stack}
+  logical_resource_id: OsNetConfigImpl
+  parent_resource: NetworkConfig
+  physical_resource_id: 3e52bab5-e879-47d1-bb0a-4a4f60cb183a
+  required_by: []
+  resource_name: OsNetConfigImpl
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredConfig
+  updated_time: '2015-07-27T02:46:29Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/StorageMgmtPort',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-StorageMgmtPort-dajvl3vurylg/51a33987-6670-42df-af16-6d165e3e1665',
+    rel: nested}
+  logical_resource_id: StorageMgmtPort
+  parent_resource: '0'
+  physical_resource_id: 51a33987-6670-42df-af16-6d165e3e1665
+  required_by: [NetIpSubnetMap, NetworkConfig, NetIpMap]
+  resource_name: StorageMgmtPort
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Controller::Ports::StorageMgmtPort
+  updated_time: '2015-07-27T03:34:31Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/UpdateConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-UpdateConfig-s7jmk77hjkni/92310216-eb36-41b6-a617-c9596f00fd35',
+    rel: nested}
+  logical_resource_id: UpdateConfig
+  parent_resource: '0'
+  physical_resource_id: 92310216-eb36-41b6-a617-c9596f00fd35
+  required_by: [UpdateDeployment]
+  resource_name: UpdateConfig
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Tasks::PackageUpdate
+  updated_time: '2015-07-27T03:34:13Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-UpdateConfig-s7jmk77hjkni/92310216-eb36-41b6-a617-c9596f00fd35/resources/config',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-UpdateConfig-s7jmk77hjkni/92310216-eb36-41b6-a617-c9596f00fd35',
+    rel: stack}
+  logical_resource_id: config
+  parent_resource: UpdateConfig
+  physical_resource_id: dd7f7452-03e5-43dc-b2cc-a658b2539824
+  required_by: []
+  resource_name: config
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::SoftwareConfig
+  updated_time: '2015-07-27T02:46:11Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/ControllerDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  logical_resource_id: ControllerDeployment
+  parent_resource: '0'
+  physical_resource_id: ec9b45ee-b6b6-48f0-821b-f2061d904994
+  required_by: [ControllerExtraConfigPre]
+  resource_name: ControllerDeployment
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::SoftwareDeployment
+  updated_time: '2015-07-27T02:46:10Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/Controller',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  logical_resource_id: Controller
+  parent_resource: '0'
+  physical_resource_id: f4ac17e0-05e0-4610-9f37-94417a049086
+  required_by: [ControllerExtraConfigPre, InternalApiPort, NetworkDeployment, StorageMgmtPort,
+    TenantPort, ExternalPort, ControllerDeployment, UpdateDeployment, StoragePort]
+  resource_name: Controller
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Nova::Server
+  updated_time: '2015-07-27T02:46:10Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/InternalApiPort',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-InternalApiPort-un7sojyg5kyo/2f76a0de-c5d4-4c8f-aac6-eaa647f31721',
+    rel: nested}
+  logical_resource_id: InternalApiPort
+  parent_resource: '0'
+  physical_resource_id: 2f76a0de-c5d4-4c8f-aac6-eaa647f31721
+  required_by: [NetIpSubnetMap, NetworkConfig, NetIpMap]
+  resource_name: InternalApiPort
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Controller::Ports::InternalApiPort
+  updated_time: '2015-07-27T03:34:22Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/StoragePort',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-StoragePort-dirnc6htl2rq/8e2f3f97-0d21-4b89-83b1-0eab12341d14',
+    rel: nested}
+  logical_resource_id: StoragePort
+  parent_resource: '0'
+  physical_resource_id: 8e2f3f97-0d21-4b89-83b1-0eab12341d14
+  required_by: [NetIpSubnetMap, NetworkConfig, NetIpMap]
+  resource_name: StoragePort
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Controller::Ports::StoragePort
+  updated_time: '2015-07-27T03:34:24Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/NetIpSubnetMap',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NetIpSubnetMap-kmvjzmyq2yac/0475ec13-adde-41d8-8706-4cfb5e334e74',
+    rel: nested}
+  logical_resource_id: NetIpSubnetMap
+  parent_resource: '0'
+  physical_resource_id: 0475ec13-adde-41d8-8706-4cfb5e334e74
+  required_by: [ControllerDeployment]
+  resource_name: NetIpSubnetMap
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Network::Ports::NetIpMap
+  updated_time: '2015-07-27T03:34:38Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/ControllerConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  logical_resource_id: ControllerConfig
+  parent_resource: '0'
+  physical_resource_id: 9c6c5c16-c8e9-4e17-a140-8c7a8e4a65e4
+  required_by: [ControllerDeployment]
+  resource_name: ControllerConfig
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredConfig
+  updated_time: '2015-07-27T02:46:10Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/NetIpMap',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NetIpMap-23mf6plhd3v2/a98e50e8-a3c2-4db5-88d6-3f1cb9484133',
+    rel: nested}
+  logical_resource_id: NetIpMap
+  parent_resource: '0'
+  physical_resource_id: a98e50e8-a3c2-4db5-88d6-3f1cb9484133
+  required_by: [ControllerDeployment, ControllerConfig]
+  resource_name: NetIpMap
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Network::Ports::NetIpMap
+  updated_time: '2015-07-27T03:34:39Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/NetworkDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  logical_resource_id: NetworkDeployment
+  parent_resource: '0'
+  physical_resource_id: ba4f6e2b-e7dc-44de-ae6d-1248c16db3f5
+  required_by: [ControllerDeployment]
+  resource_name: NetworkDeployment
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::SoftwareDeployment
+  updated_time: '2015-07-27T02:46:10Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94/resources/UpdateDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: stack}
+  logical_resource_id: UpdateDeployment
+  parent_resource: '0'
+  physical_resource_id: f2cf05af-1484-4a6a-96f9-db31f2d5d210
+  required_by: []
+  resource_name: UpdateDeployment
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::SoftwareDeployment
+  updated_time: '2015-07-27T02:46:10Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/MysqlRootPassword',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  logical_resource_id: MysqlRootPassword
+  physical_resource_id: overcloud-MysqlRootPassword-7lcltmq5plqf
+  required_by: [Controller]
+  resource_name: MysqlRootPassword
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::RandomString
+  updated_time: '2015-07-27T02:45:51Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/MysqlClusterUniquePart',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  logical_resource_id: MysqlClusterUniquePart
+  physical_resource_id: overcloud-MysqlClusterUniquePart-xgejgk2gj7mi
+  required_by: [Controller]
+  resource_name: MysqlClusterUniquePart
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::RandomString
+  updated_time: '2015-07-27T02:45:51Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/VipDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-VipDeployment-wfjy2hah2432/75a0c4dc-1674-4ef3-a04d-4e08a16c6fd8',
+    rel: nested}
+  logical_resource_id: VipDeployment
+  physical_resource_id: 75a0c4dc-1674-4ef3-a04d-4e08a16c6fd8
+  required_by: []
+  resource_name: VipDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:04Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-VipDeployment-wfjy2hah2432/75a0c4dc-1674-4ef3-a04d-4e08a16c6fd8/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-VipDeployment-wfjy2hah2432/75a0c4dc-1674-4ef3-a04d-4e08a16c6fd8',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: VipDeployment
+  physical_resource_id: 0ea27a8a-92cf-49b6-9b77-9d0c80652abe
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T02:52:40Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ControllerNodesPostDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44',
+    rel: nested}
+  logical_resource_id: ControllerNodesPostDeployment
+  physical_resource_id: 666a67e6-06c1-4fc0-b3d7-92f105764a44
+  required_by: [BlockStorageNodesPostDeployment, CephStorageNodesPostDeployment]
+  resource_name: ControllerNodesPostDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::ControllerPostDeployment
+  updated_time: '2015-07-27T03:35:32Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44/resources/ExtraConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ExtraConfig-7fuuz5nvgiro/1cf07c2f-f2ea-444d-bfb0-adb20002b6da',
+    rel: nested}
+  logical_resource_id: ExtraConfig
+  parent_resource: ControllerNodesPostDeployment
+  physical_resource_id: 1cf07c2f-f2ea-444d-bfb0-adb20002b6da
+  required_by: []
+  resource_name: ExtraConfig
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::NodeExtraConfigPost
+  updated_time: '2015-07-27T03:36:14Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44/resources/ControllerRingbuilderPuppetConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44',
+    rel: stack}
+  logical_resource_id: ControllerRingbuilderPuppetConfig
+  parent_resource: ControllerNodesPostDeployment
+  physical_resource_id: a95c5cbd-3a3a-4273-9312-294672222f1e
+  required_by: [ControllerRingbuilderDeployment_Step3]
+  resource_name: ControllerRingbuilderPuppetConfig
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::SoftwareConfig
+  updated_time: '2015-07-27T02:53:26Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44/resources/ControllerLoadBalancerDeployment_Step1',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerLoadBalancerDeployment_Step1-2i4ens7avqcw/64c6ebb7-e081-4261-be32-8a144033a42c',
+    rel: nested}
+  logical_resource_id: ControllerLoadBalancerDeployment_Step1
+  parent_resource: ControllerNodesPostDeployment
+  physical_resource_id: 64c6ebb7-e081-4261-be32-8a144033a42c
+  required_by: [ControllerServicesBaseDeployment_Step2]
+  resource_name: ControllerLoadBalancerDeployment_Step1
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:45Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerLoadBalancerDeployment_Step1-2i4ens7avqcw/64c6ebb7-e081-4261-be32-8a144033a42c/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerLoadBalancerDeployment_Step1-2i4ens7avqcw/64c6ebb7-e081-4261-be32-8a144033a42c',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: ControllerLoadBalancerDeployment_Step1
+  physical_resource_id: da48c568-4597-4d07-823d-74490f7d46ba
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T02:53:28Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44/resources/ControllerPuppetConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerPuppetConfig-mfcgemiub5hg/b4d931d3-f667-450d-ad27-6426a3f3b7ab',
+    rel: nested}
+  logical_resource_id: ControllerPuppetConfig
+  parent_resource: ControllerNodesPostDeployment
+  physical_resource_id: b4d931d3-f667-450d-ad27-6426a3f3b7ab
+  required_by: [ControllerOvercloudServicesDeployment_Step5, ControllerOvercloudServicesDeployment_Step4,
+    ControllerOvercloudServicesDeployment_Step6, ControllerOvercloudServicesDeployment_Step7,
+    ControllerLoadBalancerDeployment_Step1, ControllerServicesBaseDeployment_Step2]
+  resource_name: ControllerPuppetConfig
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::ControllerConfig
+  updated_time: '2015-07-27T03:35:42Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerPuppetConfig-mfcgemiub5hg/b4d931d3-f667-450d-ad27-6426a3f3b7ab/resources/ControllerPuppetConfigImpl',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerPuppetConfig-mfcgemiub5hg/b4d931d3-f667-450d-ad27-6426a3f3b7ab',
+    rel: stack}
+  logical_resource_id: ControllerPuppetConfigImpl
+  parent_resource: ControllerPuppetConfig
+  physical_resource_id: faf17cd4-fc6a-416d-bc7c-d73e2a230c00
+  required_by: []
+  resource_name: ControllerPuppetConfigImpl
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::SoftwareConfig
+  updated_time: '2015-07-27T02:53:27Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44/resources/ControllerRingbuilderDeployment_Step3',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerRingbuilderDeployment_Step3-euqlcpt4363x/348cdcea-1a1e-4fb5-9964-0dbee0d1e309',
+    rel: nested}
+  logical_resource_id: ControllerRingbuilderDeployment_Step3
+  parent_resource: ControllerNodesPostDeployment
+  physical_resource_id: 348cdcea-1a1e-4fb5-9964-0dbee0d1e309
+  required_by: [ControllerOvercloudServicesDeployment_Step4]
+  resource_name: ControllerRingbuilderDeployment_Step3
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:53Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerRingbuilderDeployment_Step3-euqlcpt4363x/348cdcea-1a1e-4fb5-9964-0dbee0d1e309/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerRingbuilderDeployment_Step3-euqlcpt4363x/348cdcea-1a1e-4fb5-9964-0dbee0d1e309',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: ControllerRingbuilderDeployment_Step3
+  physical_resource_id: 00f9dd03-e5a0-422c-8eb7-e742e80e1267
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T02:57:02Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44/resources/ControllerOvercloudServicesDeployment_Step4',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step4-wigdqg6g6b25/d0656296-a00d-4727-8d99-93c172a1c074',
+    rel: nested}
+  logical_resource_id: ControllerOvercloudServicesDeployment_Step4
+  parent_resource: ControllerNodesPostDeployment
+  physical_resource_id: d0656296-a00d-4727-8d99-93c172a1c074
+  required_by: [ControllerOvercloudServicesDeployment_Step5]
+  resource_name: ControllerOvercloudServicesDeployment_Step4
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:59Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step4-wigdqg6g6b25/d0656296-a00d-4727-8d99-93c172a1c074/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step4-wigdqg6g6b25/d0656296-a00d-4727-8d99-93c172a1c074',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: ControllerOvercloudServicesDeployment_Step4
+  physical_resource_id: 3da505dd-86f4-48ba-9242-cc6850142d01
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T02:57:27Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44/resources/ControllerOvercloudServicesDeployment_Step5',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step5-bofpcoh6qa2s/13bd4b5c-5d8f-48ee-b9e0-aca312fde0a2',
+    rel: nested}
+  logical_resource_id: ControllerOvercloudServicesDeployment_Step5
+  parent_resource: ControllerNodesPostDeployment
+  physical_resource_id: 13bd4b5c-5d8f-48ee-b9e0-aca312fde0a2
+  required_by: [ControllerOvercloudServicesDeployment_Step6]
+  resource_name: ControllerOvercloudServicesDeployment_Step5
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:36:03Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step5-bofpcoh6qa2s/13bd4b5c-5d8f-48ee-b9e0-aca312fde0a2/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step5-bofpcoh6qa2s/13bd4b5c-5d8f-48ee-b9e0-aca312fde0a2',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: ControllerOvercloudServicesDeployment_Step5
+  physical_resource_id: 4c45e204-fb56-46a5-a039-c82bbd66bb10
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T03:04:39Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44/resources/ControllerOvercloudServicesDeployment_Step6',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step6-4s2tc5rquhv5/4cfe0a8a-49ee-4c67-95ea-e9ee772f6e51',
+    rel: nested}
+  logical_resource_id: ControllerOvercloudServicesDeployment_Step6
+  parent_resource: ControllerNodesPostDeployment
+  physical_resource_id: 4cfe0a8a-49ee-4c67-95ea-e9ee772f6e51
+  required_by: [ControllerOvercloudServicesDeployment_Step7]
+  resource_name: ControllerOvercloudServicesDeployment_Step6
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:36:06Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step6-4s2tc5rquhv5/4cfe0a8a-49ee-4c67-95ea-e9ee772f6e51/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step6-4s2tc5rquhv5/4cfe0a8a-49ee-4c67-95ea-e9ee772f6e51',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: ControllerOvercloudServicesDeployment_Step6
+  physical_resource_id: 15c27d40-3c3b-4d80-bf80-de73b7712c0c
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T03:06:35Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44/resources/ControllerOvercloudServicesDeployment_Step7',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step7-nmno77lnsz3k/7621616d-08ca-43ba-9443-05a25f60ca46',
+    rel: nested}
+  logical_resource_id: ControllerOvercloudServicesDeployment_Step7
+  parent_resource: ControllerNodesPostDeployment
+  physical_resource_id: 7621616d-08ca-43ba-9443-05a25f60ca46
+  required_by: [ExtraConfig]
+  resource_name: ControllerOvercloudServicesDeployment_Step7
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:36:10Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step7-nmno77lnsz3k/7621616d-08ca-43ba-9443-05a25f60ca46/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step7-nmno77lnsz3k/7621616d-08ca-43ba-9443-05a25f60ca46',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: ControllerOvercloudServicesDeployment_Step7
+  physical_resource_id: f0664b94-dc36-42b8-b132-be6ae6fe7b63
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T03:07:54Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44/resources/ControllerServicesBaseDeployment_Step2',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerServicesBaseDeployment_Step2-v3kaajuzl5rg/04a8bda9-058f-49ff-bac7-394613ba6c96',
+    rel: nested}
+  logical_resource_id: ControllerServicesBaseDeployment_Step2
+  parent_resource: ControllerNodesPostDeployment
+  physical_resource_id: 04a8bda9-058f-49ff-bac7-394613ba6c96
+  required_by: [ControllerRingbuilderDeployment_Step3]
+  resource_name: ControllerServicesBaseDeployment_Step2
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:49Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerServicesBaseDeployment_Step2-v3kaajuzl5rg/04a8bda9-058f-49ff-bac7-394613ba6c96/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerServicesBaseDeployment_Step2-v3kaajuzl5rg/04a8bda9-058f-49ff-bac7-394613ba6c96',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: ControllerServicesBaseDeployment_Step2
+  physical_resource_id: e0e7d51a-a154-4176-865e-b4e2bf553cfc
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T02:55:22Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ComputeAllNodesDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeAllNodesDeployment-7rr4vapjkacm/dbff2468-d7d4-430f-8c9b-035fdb70b45a',
+    rel: nested}
+  logical_resource_id: ComputeAllNodesDeployment
+  physical_resource_id: dbff2468-d7d4-430f-8c9b-035fdb70b45a
+  required_by: [ComputeNodesPostDeployment]
+  resource_name: ComputeAllNodesDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:18Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeAllNodesDeployment-7rr4vapjkacm/dbff2468-d7d4-430f-8c9b-035fdb70b45a/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeAllNodesDeployment-7rr4vapjkacm/dbff2468-d7d4-430f-8c9b-035fdb70b45a',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: ComputeAllNodesDeployment
+  physical_resource_id: 9d42eff7-abc1-45dc-b584-37da6361d577
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T02:52:52Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ControllerCephDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerCephDeployment-fqufjvusb25o/7f3dd04c-fa5b-4ed9-9f88-d087672ca8c4',
+    rel: nested}
+  logical_resource_id: ControllerCephDeployment
+  physical_resource_id: 7f3dd04c-fa5b-4ed9-9f88-d087672ca8c4
+  required_by: [ControllerNodesPostDeployment]
+  resource_name: ControllerCephDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:27Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerCephDeployment-fqufjvusb25o/7f3dd04c-fa5b-4ed9-9f88-d087672ca8c4/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerCephDeployment-fqufjvusb25o/7f3dd04c-fa5b-4ed9-9f88-d087672ca8c4',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: ControllerCephDeployment
+  physical_resource_id: e9749188-9012-4cca-9d7e-a4457c8da860
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T02:52:53Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/Compute',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl/cf1ae961-a4d4-4af1-b234-7c3af895604f',
+    rel: nested}
+  logical_resource_id: Compute
+  physical_resource_id: cf1ae961-a4d4-4af1-b234-7c3af895604f
+  required_by: [allNodesConfig, ComputeCephDeployment, ComputeNodesPostDeployment,
+    ComputeAllNodesDeployment]
+  resource_name: Compute
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::ResourceGroup
+  updated_time: '2015-07-27T03:34:01Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl/cf1ae961-a4d4-4af1-b234-7c3af895604f/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl/cf1ae961-a4d4-4af1-b234-7c3af895604f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e',
+    rel: nested}
+  logical_resource_id: '0'
+  parent_resource: Compute
+  physical_resource_id: e6cf17c9-55fb-4209-83a5-78b059cbbf0e
+  required_by: []
+  resource_name: '0'
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Compute
+  updated_time: '2015-07-27T03:34:02Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e/resources/NodeUserData',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-NodeUserData-gvbjfhqm7njt/2cf9e871-42ee-4eec-ab12-8a4890cc3638',
+    rel: nested}
+  logical_resource_id: NodeUserData
+  parent_resource: '0'
+  physical_resource_id: 2cf9e871-42ee-4eec-ab12-8a4890cc3638
+  required_by: [NovaCompute]
+  resource_name: NodeUserData
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::NodeUserData
+  updated_time: '2015-07-27T03:34:14Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-NodeUserData-gvbjfhqm7njt/2cf9e871-42ee-4eec-ab12-8a4890cc3638/resources/userdata',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-NodeUserData-gvbjfhqm7njt/2cf9e871-42ee-4eec-ab12-8a4890cc3638',
+    rel: stack}
+  logical_resource_id: userdata
+  parent_resource: NodeUserData
+  physical_resource_id: 02f0e4de-88af-4522-8dfe-8d8fbc240a9e
+  required_by: []
+  resource_name: userdata
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::MultipartMime
+  updated_time: '2015-07-27T02:46:13Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e/resources/NovaCompute',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e',
+    rel: stack}
+  logical_resource_id: NovaCompute
+  parent_resource: '0'
+  physical_resource_id: eed05df4-2ef2-4e11-b7b8-cd6ce5944f69
+  required_by: [StoragePort, UpdateDeployment, NovaComputeDeployment, TenantPort,
+    InternalApiPort, NetworkDeployment]
+  resource_name: NovaCompute
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Nova::Server
+  updated_time: '2015-07-27T02:46:11Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e/resources/TenantPort',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-TenantPort-fkiksbx65dtp/b3f7e855-e425-4bea-a5e6-f19aaa2710ab',
+    rel: nested}
+  logical_resource_id: TenantPort
+  parent_resource: '0'
+  physical_resource_id: b3f7e855-e425-4bea-a5e6-f19aaa2710ab
+  required_by: [NetIpMap, NetworkConfig]
+  resource_name: TenantPort
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Compute::Ports::TenantPort
+  updated_time: '2015-07-27T03:34:25Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e/resources/StoragePort',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-StoragePort-moum2vtqhix5/a2c5ce25-cce5-4e8d-8515-04535358d09b',
+    rel: nested}
+  logical_resource_id: StoragePort
+  parent_resource: '0'
+  physical_resource_id: a2c5ce25-cce5-4e8d-8515-04535358d09b
+  required_by: [NetIpMap, NetworkConfig]
+  resource_name: StoragePort
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Compute::Ports::StoragePort
+  updated_time: '2015-07-27T03:34:28Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e/resources/NetworkDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e',
+    rel: stack}
+  logical_resource_id: NetworkDeployment
+  parent_resource: '0'
+  physical_resource_id: d76af03a-289d-4bac-9728-0d6fa968c3a7
+  required_by: [NovaComputeDeployment]
+  resource_name: NetworkDeployment
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::SoftwareDeployment
+  updated_time: '2015-07-27T02:46:10Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e/resources/NetworkConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-NetworkConfig-jsgrs5ws6oee/c656d5bd-6242-43af-911f-97045d260853',
+    rel: nested}
+  logical_resource_id: NetworkConfig
+  parent_resource: '0'
+  physical_resource_id: c656d5bd-6242-43af-911f-97045d260853
+  required_by: [NetworkDeployment]
+  resource_name: NetworkConfig
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Compute::Net::SoftwareConfig
+  updated_time: '2015-07-27T03:34:32Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-NetworkConfig-jsgrs5ws6oee/c656d5bd-6242-43af-911f-97045d260853/resources/OsNetConfigImpl',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-NetworkConfig-jsgrs5ws6oee/c656d5bd-6242-43af-911f-97045d260853',
+    rel: stack}
+  logical_resource_id: OsNetConfigImpl
+  parent_resource: NetworkConfig
+  physical_resource_id: 325a1443-c1de-4287-8a53-4af5e899ac03
+  required_by: []
+  resource_name: OsNetConfigImpl
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredConfig
+  updated_time: '2015-07-27T02:46:26Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e/resources/NovaComputeDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e',
+    rel: stack}
+  logical_resource_id: NovaComputeDeployment
+  parent_resource: '0'
+  physical_resource_id: 49879908-e61e-44aa-a76b-ec40da96a365
+  required_by: []
+  resource_name: NovaComputeDeployment
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::SoftwareDeployment
+  updated_time: '2015-07-27T02:46:10Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e/resources/UpdateConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-UpdateConfig-x4an5o3tulrd/b2a976b7-6119-42cb-8f73-a7281ed0af01',
+    rel: nested}
+  logical_resource_id: UpdateConfig
+  parent_resource: '0'
+  physical_resource_id: b2a976b7-6119-42cb-8f73-a7281ed0af01
+  required_by: [UpdateDeployment]
+  resource_name: UpdateConfig
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Tasks::PackageUpdate
+  updated_time: '2015-07-27T03:34:13Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-UpdateConfig-x4an5o3tulrd/b2a976b7-6119-42cb-8f73-a7281ed0af01/resources/config',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-UpdateConfig-x4an5o3tulrd/b2a976b7-6119-42cb-8f73-a7281ed0af01',
+    rel: stack}
+  logical_resource_id: config
+  parent_resource: UpdateConfig
+  physical_resource_id: cb51c728-0000-4045-acf0-b747c522c022
+  required_by: []
+  resource_name: config
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::SoftwareConfig
+  updated_time: '2015-07-27T02:46:12Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e/resources/InternalApiPort',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-InternalApiPort-fk7eildp4rwk/f76f073c-771b-4fef-8957-d72f43b319e9',
+    rel: nested}
+  logical_resource_id: InternalApiPort
+  parent_resource: '0'
+  physical_resource_id: f76f073c-771b-4fef-8957-d72f43b319e9
+  required_by: [NetIpMap, NetworkConfig]
+  resource_name: InternalApiPort
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Compute::Ports::InternalApiPort
+  updated_time: '2015-07-27T03:34:23Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e/resources/NovaComputeConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e',
+    rel: stack}
+  logical_resource_id: NovaComputeConfig
+  parent_resource: '0'
+  physical_resource_id: df455835-a583-4439-89c7-82008bfcc40d
+  required_by: [NovaComputeDeployment]
+  resource_name: NovaComputeConfig
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredConfig
+  updated_time: '2015-07-27T02:46:10Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e/resources/NetIpMap',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-NetIpMap-mch4czzfooqe/b19c89f1-0be3-4d6b-8de6-50bd2b48c542',
+    rel: nested}
+  logical_resource_id: NetIpMap
+  parent_resource: '0'
+  physical_resource_id: b19c89f1-0be3-4d6b-8de6-50bd2b48c542
+  required_by: [NovaComputeDeployment]
+  resource_name: NetIpMap
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Network::Ports::NetIpMap
+  updated_time: '2015-07-27T03:34:34Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e/resources/UpdateDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e',
+    rel: stack}
+  logical_resource_id: UpdateDeployment
+  parent_resource: '0'
+  physical_resource_id: b7a3602f-af6f-40f6-8c3a-39c969719050
+  required_by: []
+  resource_name: UpdateDeployment
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::SoftwareDeployment
+  updated_time: '2015-07-27T02:46:10Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/VipMap',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-VipMap-alvvrdoxqem3/66fa5c89-b419-4901-ae7d-7da9af6c6320',
+    rel: nested}
+  logical_resource_id: VipMap
+  physical_resource_id: 66fa5c89-b419-4901-ae7d-7da9af6c6320
+  required_by: [BlockStorage, Compute, Controller, VipDeployment]
+  resource_name: VipMap
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Network::Ports::NetIpMap
+  updated_time: '2015-07-27T03:33:57Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ObjectStorage',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorage-7457cba7n3j5/b5b0f64c-09a1-4021-8c9b-1c0f3d59a83d',
+    rel: nested}
+  logical_resource_id: ObjectStorage
+  physical_resource_id: b5b0f64c-09a1-4021-8c9b-1c0f3d59a83d
+  required_by: [SwiftDevicesAndProxyConfig, ObjectStorageNodesPostDeployment, allNodesConfig,
+    ObjectStorageAllNodesDeployment, ObjectStorageSwiftDeployment]
+  resource_name: ObjectStorage
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::ResourceGroup
+  updated_time: '2015-07-27T03:33:45Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/HeatAuthEncryptionKey',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  logical_resource_id: HeatAuthEncryptionKey
+  physical_resource_id: overcloud-HeatAuthEncryptionKey-msqhvoraiid5
+  required_by: [Controller]
+  resource_name: HeatAuthEncryptionKey
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::RandomString
+  updated_time: '2015-07-27T02:45:51Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/CephStorageNodesPostDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageNodesPostDeployment-gbm3vrrm3r7r/01277914-af86-41bb-adb2-495a80e56bad',
+    rel: nested}
+  logical_resource_id: CephStorageNodesPostDeployment
+  physical_resource_id: 01277914-af86-41bb-adb2-495a80e56bad
+  required_by: []
+  resource_name: CephStorageNodesPostDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::CephStoragePostDeployment
+  updated_time: '2015-07-27T03:36:35Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageNodesPostDeployment-gbm3vrrm3r7r/01277914-af86-41bb-adb2-495a80e56bad/resources/CephStoragePuppetConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageNodesPostDeployment-gbm3vrrm3r7r/01277914-af86-41bb-adb2-495a80e56bad',
+    rel: stack}
+  logical_resource_id: CephStoragePuppetConfig
+  parent_resource: CephStorageNodesPostDeployment
+  physical_resource_id: 3ac1fbce-7fd0-4b8d-a77a-111cf17e6f1f
+  required_by: [CephStorageDeployment_Step1]
+  resource_name: CephStoragePuppetConfig
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::SoftwareConfig
+  updated_time: '2015-07-27T03:09:08Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageNodesPostDeployment-gbm3vrrm3r7r/01277914-af86-41bb-adb2-495a80e56bad/resources/CephStorageDeployment_Step1',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageNodesPostDeployment-gbm3vrrm3r7r/01277914-af86-41bb-adb2-495a80e56bad',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageNodesPostDeployment-gbm3vrrm3r7r-CephStorageDeployment_Step1-2ayemwi5sa6w/d0b84a10-8416-4035-a700-c249ca7e57ce',
+    rel: nested}
+  logical_resource_id: CephStorageDeployment_Step1
+  parent_resource: CephStorageNodesPostDeployment
+  physical_resource_id: d0b84a10-8416-4035-a700-c249ca7e57ce
+  required_by: [ExtraConfig]
+  resource_name: CephStorageDeployment_Step1
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:36:39Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageNodesPostDeployment-gbm3vrrm3r7r/01277914-af86-41bb-adb2-495a80e56bad/resources/ExtraConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageNodesPostDeployment-gbm3vrrm3r7r/01277914-af86-41bb-adb2-495a80e56bad',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageNodesPostDeployment-gbm3vrrm3r7r-ExtraConfig-lrg4h4cedpgv/c064caa6-98eb-4286-a7cb-c7bf0dda9bb1',
+    rel: nested}
+  logical_resource_id: ExtraConfig
+  parent_resource: CephStorageNodesPostDeployment
+  physical_resource_id: c064caa6-98eb-4286-a7cb-c7bf0dda9bb1
+  required_by: []
+  resource_name: ExtraConfig
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::NodeExtraConfigPost
+  updated_time: '2015-07-27T03:36:41Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ControllerClusterDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerClusterDeployment-xz2o6dbuz6cz/e8d90c93-4274-485b-946c-0f06b61589e2',
+    rel: nested}
+  logical_resource_id: ControllerClusterDeployment
+  physical_resource_id: e8d90c93-4274-485b-946c-0f06b61589e2
+  required_by: []
+  resource_name: ControllerClusterDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:10Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerClusterDeployment-xz2o6dbuz6cz/e8d90c93-4274-485b-946c-0f06b61589e2/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerClusterDeployment-xz2o6dbuz6cz/e8d90c93-4274-485b-946c-0f06b61589e2',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: ControllerClusterDeployment
+  physical_resource_id: 4000e501-edc3-4c82-ac44-d60251e73da8
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T02:52:45Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ControllerBootstrapNodeConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerBootstrapNodeConfig-u7kxctetxrj2/47424937-98d4-4698-9751-a3669c07ec99',
+    rel: nested}
+  logical_resource_id: ControllerBootstrapNodeConfig
+  physical_resource_id: 47424937-98d4-4698-9751-a3669c07ec99
+  required_by: [ControllerBootstrapNodeDeployment]
+  resource_name: ControllerBootstrapNodeConfig
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::BootstrapNode::SoftwareConfig
+  updated_time: '2015-07-27T03:35:05Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerBootstrapNodeConfig-u7kxctetxrj2/47424937-98d4-4698-9751-a3669c07ec99/resources/BootstrapNodeConfigImpl',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerBootstrapNodeConfig-u7kxctetxrj2/47424937-98d4-4698-9751-a3669c07ec99',
+    rel: stack}
+  logical_resource_id: BootstrapNodeConfigImpl
+  parent_resource: ControllerBootstrapNodeConfig
+  physical_resource_id: 54b6c07e-4e03-4656-8e78-37a6c2be5525
+  required_by: []
+  resource_name: BootstrapNodeConfigImpl
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredConfig
+  updated_time: '2015-07-27T02:52:39Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/BlockStorageAllNodesDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-BlockStorageAllNodesDeployment-gpcdlrdu26vo/866559d5-1720-4e87-b95d-fa03e5baa002',
+    rel: nested}
+  logical_resource_id: BlockStorageAllNodesDeployment
+  physical_resource_id: 866559d5-1720-4e87-b95d-fa03e5baa002
+  required_by: [BlockStorageNodesPostDeployment]
+  resource_name: BlockStorageAllNodesDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:17Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/PublicVirtualIP',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-PublicVirtualIP-ks7ukbe35shw/169b4498-b436-40bd-8ee3-c92ece2e8fb1',
+    rel: nested}
+  logical_resource_id: PublicVirtualIP
+  physical_resource_id: 169b4498-b436-40bd-8ee3-c92ece2e8fb1
+  required_by: [Compute, VipMap, Controller, VipDeployment]
+  resource_name: PublicVirtualIP
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Controller::Ports::ExternalPort
+  updated_time: '2015-07-27T03:33:54Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-PublicVirtualIP-ks7ukbe35shw/169b4498-b436-40bd-8ee3-c92ece2e8fb1/resources/VipPort',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-PublicVirtualIP-ks7ukbe35shw/169b4498-b436-40bd-8ee3-c92ece2e8fb1',
+    rel: stack}
+  logical_resource_id: VipPort
+  parent_resource: PublicVirtualIP
+  physical_resource_id: efb48488-6899-47ab-b19e-b93ed697d8ce
+  required_by: []
+  resource_name: VipPort
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Neutron::Port
+  updated_time: '2015-07-27T02:46:02Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ControllerClusterConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  logical_resource_id: ControllerClusterConfig
+  physical_resource_id: 3e0c8201-46ab-4943-9f93-b0bd0942caa9
+  required_by: [ControllerClusterDeployment]
+  resource_name: ControllerClusterConfig
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredConfig
+  updated_time: '2015-07-27T02:45:50Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/CephClusterConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephClusterConfig-2nwml3gtad6b/36aa4a80-5f78-452d-a7f8-cf5af7da93a4',
+    rel: nested}
+  logical_resource_id: CephClusterConfig
+  physical_resource_id: 36aa4a80-5f78-452d-a7f8-cf5af7da93a4
+  required_by: [ComputeCephDeployment, CephStorageCephDeployment, ControllerCephDeployment]
+  resource_name: CephClusterConfig
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::CephClusterConfig::SoftwareConfig
+  updated_time: '2015-07-27T03:35:11Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephClusterConfig-2nwml3gtad6b/36aa4a80-5f78-452d-a7f8-cf5af7da93a4/resources/CephClusterConfigImpl',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephClusterConfig-2nwml3gtad6b/36aa4a80-5f78-452d-a7f8-cf5af7da93a4',
+    rel: stack}
+  logical_resource_id: CephClusterConfigImpl
+  parent_resource: CephClusterConfig
+  physical_resource_id: aa1eed8c-66d4-47bf-b8f3-4304de09494a
+  required_by: []
+  resource_name: CephClusterConfigImpl
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredConfig
+  updated_time: '2015-07-27T02:52:47Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/StorageMgmtVirtualIP',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-StorageMgmtVirtualIP-zgspoa4ashea/bb4a5f96-e985-4f55-ad22-c0028a70062a',
+    rel: nested}
+  logical_resource_id: StorageMgmtVirtualIP
+  physical_resource_id: bb4a5f96-e985-4f55-ad22-c0028a70062a
+  required_by: [VipDeployment, VipMap]
+  resource_name: StorageMgmtVirtualIP
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::Controller::Ports::StorageMgmtPort
+  updated_time: '2015-07-27T03:33:52Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/CephStorage',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorage-o2iiczjzog46/f459c26e-2bc3-411d-aa3b-85012f09fe78',
+    rel: nested}
+  logical_resource_id: CephStorage
+  physical_resource_id: f459c26e-2bc3-411d-aa3b-85012f09fe78
+  required_by: [CephStorageAllNodesDeployment, CephStorageNodesPostDeployment, CephStorageCephDeployment,
+    allNodesConfig]
+  resource_name: CephStorage
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::ResourceGroup
+  updated_time: '2015-07-27T03:33:46Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ObjectStorageNodesPostDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g/77d1dee5-9489-427f-8841-0ffd7f3fa7a0',
+    rel: nested}
+  logical_resource_id: ObjectStorageNodesPostDeployment
+  physical_resource_id: 77d1dee5-9489-427f-8841-0ffd7f3fa7a0
+  required_by: []
+  resource_name: ObjectStorageNodesPostDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::ObjectStoragePostDeployment
+  updated_time: '2015-07-27T03:35:24Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g/77d1dee5-9489-427f-8841-0ffd7f3fa7a0/resources/StoragePuppetConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g/77d1dee5-9489-427f-8841-0ffd7f3fa7a0',
+    rel: stack}
+  logical_resource_id: StoragePuppetConfig
+  parent_resource: ObjectStorageNodesPostDeployment
+  physical_resource_id: 8293ac79-18e4-4b80-be73-3226d02bf408
+  required_by: [StorageDeployment_Step1]
+  resource_name: StoragePuppetConfig
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::SoftwareConfig
+  updated_time: '2015-07-27T02:52:57Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g/77d1dee5-9489-427f-8841-0ffd7f3fa7a0/resources/StorageRingbuilderPuppetConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g/77d1dee5-9489-427f-8841-0ffd7f3fa7a0',
+    rel: stack}
+  logical_resource_id: StorageRingbuilderPuppetConfig
+  parent_resource: ObjectStorageNodesPostDeployment
+  physical_resource_id: 65ec14a2-cfb6-4bd4-ab22-cbdbb5ae7386
+  required_by: [StorageRingbuilderDeployment_Step2]
+  resource_name: StorageRingbuilderPuppetConfig
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::SoftwareConfig
+  updated_time: '2015-07-27T02:52:57Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g/77d1dee5-9489-427f-8841-0ffd7f3fa7a0/resources/StorageDeployment_Step1',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g/77d1dee5-9489-427f-8841-0ffd7f3fa7a0',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g-StorageDeployment_Step1-g57izyjnkm6x/802d94ad-1931-406c-83d2-132aa94b24bb',
+    rel: nested}
+  logical_resource_id: StorageDeployment_Step1
+  parent_resource: ObjectStorageNodesPostDeployment
+  physical_resource_id: 802d94ad-1931-406c-83d2-132aa94b24bb
+  required_by: [StorageRingbuilderDeployment_Step2]
+  resource_name: StorageDeployment_Step1
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:32Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g/77d1dee5-9489-427f-8841-0ffd7f3fa7a0/resources/StorageRingbuilderDeployment_Step2',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g/77d1dee5-9489-427f-8841-0ffd7f3fa7a0',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g-StorageRingbuilderDeployment_Step2-qlg7tawl62ty/684a6813-264c-46bc-bbbc-46a5b04a8fa1',
+    rel: nested}
+  logical_resource_id: StorageRingbuilderDeployment_Step2
+  parent_resource: ObjectStorageNodesPostDeployment
+  physical_resource_id: 684a6813-264c-46bc-bbbc-46a5b04a8fa1
+  required_by: [ExtraConfig]
+  resource_name: StorageRingbuilderDeployment_Step2
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:34Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g/77d1dee5-9489-427f-8841-0ffd7f3fa7a0/resources/ExtraConfig',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g/77d1dee5-9489-427f-8841-0ffd7f3fa7a0',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g-ExtraConfig-7kqpkztikfbj/da8de4a6-9707-47a6-89c9-1272beab1909',
+    rel: nested}
+  logical_resource_id: ExtraConfig
+  parent_resource: ObjectStorageNodesPostDeployment
+  physical_resource_id: da8de4a6-9707-47a6-89c9-1272beab1909
+  required_by: []
+  resource_name: ExtraConfig
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::TripleO::NodeExtraConfigPost
+  updated_time: '2015-07-27T03:35:36Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ObjectStorageAllNodesDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageAllNodesDeployment-sowlgvgzctac/fdcc6af2-614f-4402-83da-51020e81b1c6',
+    rel: nested}
+  logical_resource_id: ObjectStorageAllNodesDeployment
+  physical_resource_id: fdcc6af2-614f-4402-83da-51020e81b1c6
+  required_by: [ObjectStorageNodesPostDeployment]
+  resource_name: ObjectStorageAllNodesDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:18Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ControllerAllNodesDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerAllNodesDeployment-w3wks7sa7vzf/a81fad58-251c-4901-aaf5-05c2bbd49dab',
+    rel: nested}
+  logical_resource_id: ControllerAllNodesDeployment
+  physical_resource_id: a81fad58-251c-4901-aaf5-05c2bbd49dab
+  required_by: [ControllerNodesPostDeployment]
+  resource_name: ControllerAllNodesDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:14Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerAllNodesDeployment-w3wks7sa7vzf/a81fad58-251c-4901-aaf5-05c2bbd49dab/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerAllNodesDeployment-w3wks7sa7vzf/a81fad58-251c-4901-aaf5-05c2bbd49dab',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: ControllerAllNodesDeployment
+  physical_resource_id: 3a9694a9-ae86-45ba-95f7-bc343c2a54dc
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T02:52:50Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ControllerBootstrapNodeDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerBootstrapNodeDeployment-2pig2m26cbwt/7b997c44-2f4f-41e4-ba06-07b782486ee7',
+    rel: nested}
+  logical_resource_id: ControllerBootstrapNodeDeployment
+  physical_resource_id: 7b997c44-2f4f-41e4-ba06-07b782486ee7
+  required_by: [ControllerNodesPostDeployment]
+  resource_name: ControllerBootstrapNodeDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:16Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerBootstrapNodeDeployment-2pig2m26cbwt/7b997c44-2f4f-41e4-ba06-07b782486ee7/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerBootstrapNodeDeployment-2pig2m26cbwt/7b997c44-2f4f-41e4-ba06-07b782486ee7',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: ControllerBootstrapNodeDeployment
+  physical_resource_id: 2f129d65-de53-4e61-a8e8-a9c9c9bb28e3
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T02:52:42Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f/resources/ComputeCephDeployment',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: stack}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeCephDeployment-zo37qa6yzzwd/7e0312f6-af42-4f81-8ab3-6b8cf7ba10a6',
+    rel: nested}
+  logical_resource_id: ComputeCephDeployment
+  physical_resource_id: 7e0312f6-af42-4f81-8ab3-6b8cf7ba10a6
+  required_by: [ComputeNodesPostDeployment]
+  resource_name: ComputeCephDeployment
+  resource_status: UPDATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployments
+  updated_time: '2015-07-27T03:35:22Z'
+- links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeCephDeployment-zo37qa6yzzwd/7e0312f6-af42-4f81-8ab3-6b8cf7ba10a6/resources/0',
+    rel: self}
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeCephDeployment-zo37qa6yzzwd/7e0312f6-af42-4f81-8ab3-6b8cf7ba10a6',
+    rel: stack}
+  logical_resource_id: '0'
+  parent_resource: ComputeCephDeployment
+  physical_resource_id: dedea959-baa9-4e52-a8db-e4d7aef49ab1
+  required_by: []
+  resource_name: '0'
+  resource_status: CREATE_COMPLETE
+  resource_status_reason: state changed
+  resource_type: OS::Heat::StructuredDeployment
+  updated_time: '2015-07-27T02:52:54Z'
+

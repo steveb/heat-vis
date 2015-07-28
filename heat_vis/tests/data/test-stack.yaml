@@ -1,0 +1,180 @@
+stack:
+  capabilities: []
+  creation_time: '2015-07-27T02:45:49Z'
+  description: 'Nova API,Keystone,Heat Engine and API,Glance,Neutron,Dedicated MySQL
+    server,Dedicated RabbitMQ Server,Group of Nova Computes
+
+    '
+  disable_rollback: true
+  id: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: self}
+  notification_topics: []
+  outputs:
+  - {description: VIP for Ceilometer API internal endpoint, output_key: CeilometerInternalVip,
+    output_value: 192.0.2.12}
+  - {description: VIP for Glance API internal endpoint, output_key: GlanceInternalVip,
+    output_value: 192.0.2.12}
+  - {description: VIP for Heat API internal endpoint, output_key: HeatInternalVip,
+    output_value: 192.0.2.12}
+  - {description: VIP for Keystone API internal endpoint, output_key: KeystoneInternalVip,
+    output_value: 192.0.2.12}
+  - {description: Controller VIP for public API endpoints, output_key: PublicVip,
+    output_value: 192.0.2.14}
+  - {description: URL for the Overcloud Keystone service, output_key: KeystoneURL,
+    output_value: 'http://192.0.2.14:5000/v2.0/'}
+  - {description: VIP for Neutron API internal endpoint, output_key: NeutronInternalVip,
+    output_value: 192.0.2.12}
+  - {description: VIP for Swift Proxy internal endpoint, output_key: SwiftInternalVip,
+    output_value: 192.0.2.12}
+  - {description: VIP for Cinder API internal endpoint, output_key: CinderInternalVip,
+    output_value: 192.0.2.12}
+  - {description: VIP for Nova API internal endpoint, output_key: NovaInternalVip,
+    output_value: 192.0.2.12}
+  parameters: {AdminPassword: '******', AdminToken: '******', BlockStorageCount: '0',
+    BlockStorageHostnameFormat: '%stackname%-blockstorage-%index%', BlockStorageImage: overcloud-full,
+    BlockStorageRemovalPolicies: '[]', CeilometerBackend: mongodb, CeilometerComputeAgent: '',
+    CeilometerMeteringSecret: '******', CeilometerPassword: '******', CephAdminKey: '''''',
+    CephClusterFSID: '''''', CephMonKey: '''''', CephStorageCount: '0', CephStorageHostnameFormat: '%stackname%-cephstorage-%index%',
+    CephStorageImage: overcloud-full, CephStorageRemovalPolicies: '[]', CinderEnableIscsiBackend: 'True',
+    CinderEnableNfsBackend: 'False', CinderEnableRbdBackend: 'False', CinderISCSIHelper: lioadm,
+    CinderLVMLoopDeviceSize: '5000', CinderNfsMountOptions: '', CinderNfsServers: '',
+    CinderPassword: '******', CloudName: overcloud, ComputeCount: '1', ComputeHostnameFormat: '%stackname%-compute-%index%',
+    ComputeRemovalPolicies: '[]', ControlFixedIPs: '[]', ControlVirtualInterface: br-ex,
+    ControllerCount: '1', ControllerEnableCephStorage: 'False', ControllerEnableSwiftStorage: 'True',
+    ControllerHostnameFormat: '%stackname%-controller-%index%', ControllerRemovalPolicies: '[]',
+    Debug: 'True', EnableGalera: 'True', EnablePacemaker: 'False', ExtraConfig: '{}',
+    GlanceBackend: swift, GlanceFilePcmkDevice: '', GlanceFilePcmkFstype: nfs, GlanceFilePcmkManage: 'False',
+    GlanceFilePcmkOptions: '', GlanceLogFile: '', GlanceNotifierStrategy: noop, GlancePassword: '******',
+    GlancePort: '9292', GlanceProtocol: http, HeatPassword: '******', HeatStackDomainAdminPassword: '******',
+    HypervisorNeutronPhysicalBridge: br-ex, HypervisorNeutronPublicInterface: nic1,
+    ImageUpdatePolicy: REBUILD_PRESERVE_EPHEMERAL, KeyName: default, KeystoneCACertificate: '-----BEGIN
+      CERTIFICATE-----
+
+      MIIDNzCCAh+gAwIBAgIBATANBgkqhkiG9w0BAQUFADBTMQswCQYDVQQGEwJYWDEO
+
+      MAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEU
+
+      MBIGA1UEAxMLS2V5c3RvbmUgQ0EwHhcNMTUwNzI3MDI0NTQ3WhcNMjUwNzI0MDI0
+
+      NTQ3WjBTMQswCQYDVQQGEwJYWDEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVu
+
+      c2V0MQ4wDAYDVQQKEwVVbnNldDEUMBIGA1UEAxMLS2V5c3RvbmUgQ0EwggEiMA0G
+
+      CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDRH3reXp9dPawDptOi4SMxCLsFpUm9
+
+      8FWi/DItcgpwnT07CdJUUcLfVbtXu7X6El0DxWsmM8e/moUx2c+BqhUBKgcJEZkR
+
+      0nTj2wHRtg6bw+9lGPr9Od1xUxKUihZxtVbmmHxk7BqggPqQh4J6dhgl6iZ9pylC
+
+      qLbmKIjv6iTS5RYLCx2d4M7gs5fICvscbIdVYmxuQGAGVFrDKtYVLyipB3LD8CVT
+
+      vbPU/n9TtLseYO3Nx6QoNsFTfuHM2njVDIliEn/PTQLfyhjAYaocsNUgYpd6e6ui
+
+      YlOSqH+KhUXrgIFtyiR1WQbv0d0WYDvpnWBugAxLIr59F/KIV1RJzDazAgMBAAGj
+
+      FjAUMBIGA1UdEwEB/wQIMAYBAf8CAQAwDQYJKoZIhvcNAQEFBQADggEBALjZsrQ9
+
+      nPR6DRdC1td0KHssRW889Ck0d7JSv44NQTGEBZsKLbi4v62KNjAx7JUm3ETut6u+
+
+      y+5xnYM6FsVYCJQ0/hjlm9/wDeyiyFnsLuwXFWMU9430jzidWjHPeabKFByJE/TJ
+
+      GjRfDrp+FqQS0QeYn+8TpnmY/okei6x9sIxHmX1oLh0cJ3YBq1Xkuef0UdcsUg+4
+
+      qiQcQcrjExYHls76qA+nqj9Ht/XsmWQHEkQbur/cnfeBE/GKIGyQE0Pghjj2zQAE
+
+      bwmKbOirnXZQv1jG2tDKVAt7g+uCoGPaKhfeOOa6NuPRcI3l/L0wryNo+Ize2Y23
+
+      +mA18/deSDLRqNw=
+
+      -----END CERTIFICATE-----
+
+      ', KeystoneSSLCertificate: '', KeystoneSSLCertificateKey: '******', KeystoneSigningCertificate: '-----BEGIN
+      CERTIFICATE-----
+
+      MIIDJDCCAgygAwIBAgIBAjANBgkqhkiG9w0BAQUFADBTMQswCQYDVQQGEwJYWDEO
+
+      MAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEU
+
+      MBIGA1UEAxMLS2V5c3RvbmUgQ0EwHhcNMTUwNzI3MDI0NTQ3WhcNMjUwNzI0MDI0
+
+      NTQ3WjBYMQswCQYDVQQGEwJYWDEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVu
+
+      c2V0MQ4wDAYDVQQKEwVVbnNldDEZMBcGA1UEAxMQS2V5c3RvbmUgU2lnbmluZzCC
+
+      ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKa880ZCtu8vIngVfj/VQdLq
+
+      PxqxyNIjVV+6eqlavn8KDuh7ZmLpmeukt+6NBc9eyGZuV7W33mEcDgvLQ1W9YhV3
+
+      B6kpHMYAjYHCd7ih0Uk3gaNz0ogRTfNvxclGfL+62gRTUEa6XeLyAfVs7+obdqDo
+
+      QceR5JrsSkwV7gfEj7JyytIVBuaVQs/uVOqNjhs7JDqi23L3Aj+/jLp+yfrC13n9
+
+      zFKm/YHHfT6ug6YksyxShJvHw3x132LP7dVRRl5ngg1wfn0HEGQBs9FvJU2F3Pn4
+
+      nilQWTxf9XYQAGkb9OEAO8QQ1UtxkHIGaqK1w+pHbsjfRYPg15+4MmMmrjU6ugUC
+
+      AwEAATANBgkqhkiG9w0BAQUFAAOCAQEAszA7WeSLf5P3V0c5G7CZs8cwrQBQmsos
+
+      MeT+2sAgngqrXpviLZib4lthQUGFHX9W16mOwDYCuhdJfOWLLHZnwIj1BYTNaidv
+
+      jWuTys7j8kC6NoxrhqLLE02srCMjfHRVWgbflutdm0wKB7Xixmp88n35d4z/6Sh0
+
+      ErKZo4xlpRFVhN5gnzFTWrNYLTJyfHs/F3w90NDE76lXZi/T7SRG3iUrAE9ng0QH
+
+      2XkAxURM4zDopOTgXMoeithFQAGReEaPQzJn733kxTCHPMhi/kqPaMK0XLRO92XN
+
+      Ntq7QNDlGhTqAavFThHWUm7T6pIzY7edDyHHRnjXjvyER3z9p+UJ1w==
+
+      -----END CERTIFICATE-----
+
+      ', KeystoneSigningKey: '******', MysqlInnodbBufferPoolSize: '0', MysqlMaxConnections: '1024',
+    NeutronAgentMode: dvr_snat, NeutronAllowL3AgentFailover: 'False', NeutronBridgeMappings: 'datacentre:br-ex',
+    NeutronComputeAgentMode: dvr, NeutronControlPlaneID: a86e4c4b-019c-4794-a883-b9787cd96cf0,
+    NeutronDVR: 'False', NeutronDhcpAgentsPerNetwork: '3', NeutronDnsmasqOptions: 'dhcp-option-force=26,1400',
+    NeutronEnableTunnelling: 'True', NeutronExternalNetworkBridge: br-ex, NeutronFlatNetworks: datacentre,
+    NeutronL3HA: 'False', NeutronMechanismDrivers: openvswitch, NeutronMetadataProxySharedSecret: unset,
+    NeutronNetworkType: gre, NeutronNetworkVLANRanges: 'datacentre:1:1000', NeutronPassword: '******',
+    NeutronPublicInterface: nic1, NeutronPublicInterfaceDefaultRoute: '', NeutronPublicInterfaceIP: '',
+    NeutronPublicInterfaceRawDevice: '', NeutronPublicInterfaceTag: '', NeutronTunnelIdRanges: '1:1000',
+    NeutronTunnelTypes: gre, NeutronVniRanges: '1:1000', NovaComputeDriver: libvirt.LibvirtDriver,
+    NovaComputeExtraConfig: '{}', NovaComputeLibvirtType: qemu, NovaEnableRbdBackend: 'False',
+    NovaImage: overcloud-full, NovaPassword: '******', NtpServer: '', 'OS::project_id': 0aa1b0366c7d4087bd60928fb3ac8724,
+    'OS::stack_id': 88c893d1-3baa-4ebb-9625-82815a66b32f, 'OS::stack_name': overcloud,
+    ObjectStorageCount: '0', ObjectStorageHostnameFormat: '%stackname%-objectstorage-%index%',
+    ObjectStorageRemovalPolicies: '[]', OvercloudBlockStorageFlavor: baremetal, OvercloudCephStorageFlavor: baremetal,
+    OvercloudComputeFlavor: baremetal, OvercloudControlFlavor: baremetal, OvercloudSwiftStorageFlavor: baremetal,
+    PublicVirtualFixedIPs: '[]', PublicVirtualInterface: br-ex, PublicVirtualNetwork: ctlplane,
+    RabbitClientPort: '5672', RabbitClientUseSSL: 'False', RabbitCookieSalt: unset,
+    RabbitPassword: '******', RabbitUserName: guest, SSLCACertificate: '', SSLCertificate: '******',
+    SSLKey: '******', ServiceNetMap: '{"NovaVncProxyNetwork": "internal_api", "CinderApiNetwork":
+      "internal_api", "NovaApiNetwork": "internal_api", "CeilometerApiNetwork": "internal_api",
+      "CephStorageHostnameResolveNetwork": "storage", "SwiftMgmtNetwork": "storage_mgmt",
+      "MemcachedNetwork": "internal_api", "RabbitMqNetwork": "internal_api", "KeystoneAdminApiNetwork":
+      "internal_api", "SwiftProxyNetwork": "storage", "NeutronTenantNetwork": "tenant",
+      "CephClusterNetwork": "storage_mgmt", "NovaMetadataNetwork": "internal_api",
+      "ControllerHostnameResolveNetwork": "internal_api", "NeutronApiNetwork": "internal_api",
+      "GlanceApiNetwork": "storage", "ObjectStorageHostnameResolveNetwork": "internal_api",
+      "KeystonePublicApiNetwork": "internal_api", "HeatApiNetwork": "internal_api",
+      "GlanceRegistryNetwork": "internal_api", "RedisNetwork": "internal_api", "MysqlNetwork":
+      "internal_api", "BlockStorageHostnameResolveNetwork": "internal_api", "ComputeHostnameResolveNetwork":
+      "internal_api", "CephPublicNetwork": "storage", "MongoDbNetwork": "internal_api",
+      "HorizonNetwork": "internal_api", "CinderIscsiNetwork": "storage"}', SnmpdReadonlyUserName: ro_snmp_user,
+    SnmpdReadonlyUserPassword: '******', SwiftHashSuffix: '******', SwiftMinPartHours: '1',
+    SwiftMountCheck: 'False', SwiftPartPower: '10', SwiftPassword: '******', SwiftReplicas: '3',
+    SwiftStorageImage: overcloud-full, UpdateIdentifier: '', controllerExtraConfig: '{}',
+    controllerImage: overcloud-full}
+  parent: null
+  stack_name: overcloud
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  template_description: 'Nova API,Keystone,Heat Engine and API,Glance,Neutron,Dedicated
+    MySQL server,Dedicated RabbitMQ Server,Group of Nova Computes
+
+    '
+  timeout_mins: 240
+  updated_time: '2015-07-27T03:33:25Z'
+
