@@ -1,0 +1,1090 @@
+- creation_time: '2015-07-27T03:09:10Z'
+  description: Extra Post Deployment Config
+  id: c064caa6-98eb-4286-a7cb-c7bf0dda9bb1
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageNodesPostDeployment-gbm3vrrm3r7r-ExtraConfig-lrg4h4cedpgv/c064caa6-98eb-4286-a7cb-c7bf0dda9bb1',
+    rel: self}
+  parent: 01277914-af86-41bb-adb2-495a80e56bad
+  stack_name: overcloud-CephStorageNodesPostDeployment-gbm3vrrm3r7r-ExtraConfig-lrg4h4cedpgv
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:36:41Z'
+- creation_time: '2015-07-27T03:09:08Z'
+  description: No description
+  id: d0b84a10-8416-4035-a700-c249ca7e57ce
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageNodesPostDeployment-gbm3vrrm3r7r-CephStorageDeployment_Step1-2ayemwi5sa6w/d0b84a10-8416-4035-a700-c249ca7e57ce',
+    rel: self}
+  parent: 01277914-af86-41bb-adb2-495a80e56bad
+  stack_name: overcloud-CephStorageNodesPostDeployment-gbm3vrrm3r7r-CephStorageDeployment_Step1-2ayemwi5sa6w
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:36:39Z'
+- creation_time: '2015-07-27T03:09:07Z'
+  description: No description
+  id: 1f265ea0-e895-43d1-941e-61eeed656b19
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-BlockStorageNodesPostDeployment-5ae4iiob77kp-VolumeDeployment_Step1-7iuiqq3kj3my/1f265ea0-e895-43d1-941e-61eeed656b19',
+    rel: self}
+  parent: 789d3e28-7092-4bb9-8647-510a63918530
+  stack_name: overcloud-BlockStorageNodesPostDeployment-5ae4iiob77kp-VolumeDeployment_Step1-7iuiqq3kj3my
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:36:38Z'
+- creation_time: '2015-07-27T03:09:07Z'
+  description: 'OpenStack ceph storage node post deployment for Puppet
+
+    '
+  id: 01277914-af86-41bb-adb2-495a80e56bad
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageNodesPostDeployment-gbm3vrrm3r7r/01277914-af86-41bb-adb2-495a80e56bad',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-CephStorageNodesPostDeployment-gbm3vrrm3r7r
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:36:36Z'
+- creation_time: '2015-07-27T03:09:06Z'
+  description: OpenStack cinder storage post deployment for Puppet
+  id: 789d3e28-7092-4bb9-8647-510a63918530
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-BlockStorageNodesPostDeployment-5ae4iiob77kp/789d3e28-7092-4bb9-8647-510a63918530',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-BlockStorageNodesPostDeployment-5ae4iiob77kp
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:36:35Z'
+- creation_time: '2015-07-27T03:09:04Z'
+  description: Extra Post Deployment Config
+  id: 1cf07c2f-f2ea-444d-bfb0-adb20002b6da
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ExtraConfig-7fuuz5nvgiro/1cf07c2f-f2ea-444d-bfb0-adb20002b6da',
+    rel: self}
+  parent: 666a67e6-06c1-4fc0-b3d7-92f105764a44
+  stack_name: overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ExtraConfig-7fuuz5nvgiro
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:36:15Z'
+- creation_time: '2015-07-27T03:07:54Z'
+  description: No description
+  id: 7621616d-08ca-43ba-9443-05a25f60ca46
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step7-nmno77lnsz3k/7621616d-08ca-43ba-9443-05a25f60ca46',
+    rel: self}
+  parent: 666a67e6-06c1-4fc0-b3d7-92f105764a44
+  stack_name: overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step7-nmno77lnsz3k
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:36:11Z'
+- creation_time: '2015-07-27T03:07:52Z'
+  description: Extra Post Deployment Config
+  id: 93f71029-49c4-4f81-8595-a794a2114c9b
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeNodesPostDeployment-hjqseaqis3l6-ExtraConfig-yazlxrwxau2h/93f71029-49c4-4f81-8595-a794a2114c9b',
+    rel: self}
+  parent: 90570c02-946f-41c0-b32d-a34eb1f0490d
+  stack_name: overcloud-ComputeNodesPostDeployment-hjqseaqis3l6-ExtraConfig-yazlxrwxau2h
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:39Z'
+- creation_time: '2015-07-27T03:06:35Z'
+  description: No description
+  id: 4cfe0a8a-49ee-4c67-95ea-e9ee772f6e51
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step6-4s2tc5rquhv5/4cfe0a8a-49ee-4c67-95ea-e9ee772f6e51',
+    rel: self}
+  parent: 666a67e6-06c1-4fc0-b3d7-92f105764a44
+  stack_name: overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step6-4s2tc5rquhv5
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:36:07Z'
+- creation_time: '2015-07-27T03:04:38Z'
+  description: No description
+  id: 13bd4b5c-5d8f-48ee-b9e0-aca312fde0a2
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step5-bofpcoh6qa2s/13bd4b5c-5d8f-48ee-b9e0-aca312fde0a2',
+    rel: self}
+  parent: 666a67e6-06c1-4fc0-b3d7-92f105764a44
+  stack_name: overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step5-bofpcoh6qa2s
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:36:03Z'
+- creation_time: '2015-07-27T02:57:27Z'
+  description: No description
+  id: d0656296-a00d-4727-8d99-93c172a1c074
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step4-wigdqg6g6b25/d0656296-a00d-4727-8d99-93c172a1c074',
+    rel: self}
+  parent: 666a67e6-06c1-4fc0-b3d7-92f105764a44
+  stack_name: overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerOvercloudServicesDeployment_Step4-wigdqg6g6b25
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:59Z'
+- creation_time: '2015-07-27T02:57:02Z'
+  description: No description
+  id: 348cdcea-1a1e-4fb5-9964-0dbee0d1e309
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerRingbuilderDeployment_Step3-euqlcpt4363x/348cdcea-1a1e-4fb5-9964-0dbee0d1e309',
+    rel: self}
+  parent: 666a67e6-06c1-4fc0-b3d7-92f105764a44
+  stack_name: overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerRingbuilderDeployment_Step3-euqlcpt4363x
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:54Z'
+- creation_time: '2015-07-27T02:55:22Z'
+  description: No description
+  id: 04a8bda9-058f-49ff-bac7-394613ba6c96
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerServicesBaseDeployment_Step2-v3kaajuzl5rg/04a8bda9-058f-49ff-bac7-394613ba6c96',
+    rel: self}
+  parent: 666a67e6-06c1-4fc0-b3d7-92f105764a44
+  stack_name: overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerServicesBaseDeployment_Step2-v3kaajuzl5rg
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:50Z'
+- creation_time: '2015-07-27T02:53:28Z'
+  description: No description
+  id: 64c6ebb7-e081-4261-be32-8a144033a42c
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerLoadBalancerDeployment_Step1-2i4ens7avqcw/64c6ebb7-e081-4261-be32-8a144033a42c',
+    rel: self}
+  parent: 666a67e6-06c1-4fc0-b3d7-92f105764a44
+  stack_name: overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerLoadBalancerDeployment_Step1-2i4ens7avqcw
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:46Z'
+- creation_time: '2015-07-27T02:53:27Z'
+  description: 'A software config which runs manifests/overcloud_controller_pacemaker.pp
+
+    '
+  id: b4d931d3-f667-450d-ad27-6426a3f3b7ab
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerPuppetConfig-mfcgemiub5hg/b4d931d3-f667-450d-ad27-6426a3f3b7ab',
+    rel: self}
+  parent: 666a67e6-06c1-4fc0-b3d7-92f105764a44
+  stack_name: overcloud-ControllerNodesPostDeployment-er6xodwbmahx-ControllerPuppetConfig-mfcgemiub5hg
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:42Z'
+- creation_time: '2015-07-27T02:53:26Z'
+  description: 'OpenStack controller node post deployment for Puppet.
+
+    '
+  id: 666a67e6-06c1-4fc0-b3d7-92f105764a44
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerNodesPostDeployment-er6xodwbmahx/666a67e6-06c1-4fc0-b3d7-92f105764a44',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-ControllerNodesPostDeployment-er6xodwbmahx
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:33Z'
+- creation_time: '2015-07-27T02:53:12Z'
+  description: No description
+  id: 301f0910-1eb0-4946-ac6b-ac0ee2b866d7
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeNodesPostDeployment-hjqseaqis3l6-ComputePuppetDeployment-n3fmgzovy3a3/301f0910-1eb0-4946-ac6b-ac0ee2b866d7',
+    rel: self}
+  parent: 90570c02-946f-41c0-b32d-a34eb1f0490d
+  stack_name: overcloud-ComputeNodesPostDeployment-hjqseaqis3l6-ComputePuppetDeployment-n3fmgzovy3a3
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:35Z'
+- creation_time: '2015-07-27T02:53:11Z'
+  description: 'OpenStack compute node post deployment for Puppet.
+
+    '
+  id: 90570c02-946f-41c0-b32d-a34eb1f0490d
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeNodesPostDeployment-hjqseaqis3l6/90570c02-946f-41c0-b32d-a34eb1f0490d',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-ComputeNodesPostDeployment-hjqseaqis3l6
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:31Z'
+- creation_time: '2015-07-27T02:53:03Z'
+  description: Extra Post Deployment Config
+  id: da8de4a6-9707-47a6-89c9-1272beab1909
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g-ExtraConfig-7kqpkztikfbj/da8de4a6-9707-47a6-89c9-1272beab1909',
+    rel: self}
+  parent: 77d1dee5-9489-427f-8841-0ffd7f3fa7a0
+  stack_name: overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g-ExtraConfig-7kqpkztikfbj
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:37Z'
+- creation_time: '2015-07-27T02:53:01Z'
+  description: No description
+  id: 684a6813-264c-46bc-bbbc-46a5b04a8fa1
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g-StorageRingbuilderDeployment_Step2-qlg7tawl62ty/684a6813-264c-46bc-bbbc-46a5b04a8fa1',
+    rel: self}
+  parent: 77d1dee5-9489-427f-8841-0ffd7f3fa7a0
+  stack_name: overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g-StorageRingbuilderDeployment_Step2-qlg7tawl62ty
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:35Z'
+- creation_time: '2015-07-27T02:52:58Z'
+  description: No description
+  id: 802d94ad-1931-406c-83d2-132aa94b24bb
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g-StorageDeployment_Step1-g57izyjnkm6x/802d94ad-1931-406c-83d2-132aa94b24bb',
+    rel: self}
+  parent: 77d1dee5-9489-427f-8841-0ffd7f3fa7a0
+  stack_name: overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g-StorageDeployment_Step1-g57izyjnkm6x
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:33Z'
+- creation_time: '2015-07-27T02:52:57Z'
+  description: OpenStack swift storage node post deployment for Puppet
+  id: 77d1dee5-9489-427f-8841-0ffd7f3fa7a0
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g/77d1dee5-9489-427f-8841-0ffd7f3fa7a0',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-ObjectStorageNodesPostDeployment-kjfifqxsul4g
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:26Z'
+- creation_time: '2015-07-27T02:52:54Z'
+  description: No description
+  id: 7e0312f6-af42-4f81-8ab3-6b8cf7ba10a6
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeCephDeployment-zo37qa6yzzwd/7e0312f6-af42-4f81-8ab3-6b8cf7ba10a6',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-ComputeCephDeployment-zo37qa6yzzwd
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:23Z'
+- creation_time: '2015-07-27T02:52:53Z'
+  description: No description
+  id: 866559d5-1720-4e87-b95d-fa03e5baa002
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-BlockStorageAllNodesDeployment-gpcdlrdu26vo/866559d5-1720-4e87-b95d-fa03e5baa002',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-BlockStorageAllNodesDeployment-gpcdlrdu26vo
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:17Z'
+- creation_time: '2015-07-27T02:52:53Z'
+  description: No description
+  id: 7f3dd04c-fa5b-4ed9-9f88-d087672ca8c4
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerCephDeployment-fqufjvusb25o/7f3dd04c-fa5b-4ed9-9f88-d087672ca8c4',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-ControllerCephDeployment-fqufjvusb25o
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:28Z'
+- creation_time: '2015-07-27T02:52:52Z'
+  description: No description
+  id: dbff2468-d7d4-430f-8c9b-035fdb70b45a
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ComputeAllNodesDeployment-7rr4vapjkacm/dbff2468-d7d4-430f-8c9b-035fdb70b45a',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-ComputeAllNodesDeployment-7rr4vapjkacm
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:20Z'
+- creation_time: '2015-07-27T02:52:50Z'
+  description: No description
+  id: a81fad58-251c-4901-aaf5-05c2bbd49dab
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerAllNodesDeployment-w3wks7sa7vzf/a81fad58-251c-4901-aaf5-05c2bbd49dab',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-ControllerAllNodesDeployment-w3wks7sa7vzf
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:15Z'
+- creation_time: '2015-07-27T02:52:50Z'
+  description: No description
+  id: 80e352ab-717f-4cb0-9ebe-ad6186f7d093
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageAllNodesDeployment-3zaufpivs47y/80e352ab-717f-4cb0-9ebe-ad6186f7d093',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-CephStorageAllNodesDeployment-3zaufpivs47y
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:16Z'
+- creation_time: '2015-07-27T02:52:49Z'
+  description: No description
+  id: fdcc6af2-614f-4402-83da-51020e81b1c6
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageAllNodesDeployment-sowlgvgzctac/fdcc6af2-614f-4402-83da-51020e81b1c6',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-ObjectStorageAllNodesDeployment-sowlgvgzctac
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:18Z'
+- creation_time: '2015-07-27T02:52:49Z'
+  description: No description
+  id: 2493855b-d79d-4571-9725-1d4e3f51d968
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorageCephDeployment-3rloblui42ca/2493855b-d79d-4571-9725-1d4e3f51d968',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-CephStorageCephDeployment-3rloblui42ca
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:24Z'
+- creation_time: '2015-07-27T02:52:46Z'
+  description: Ceph Cluster config data for Puppet
+  id: 36aa4a80-5f78-452d-a7f8-cf5af7da93a4
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephClusterConfig-2nwml3gtad6b/36aa4a80-5f78-452d-a7f8-cf5af7da93a4',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-CephClusterConfig-2nwml3gtad6b
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:11Z'
+- creation_time: '2015-07-27T02:52:46Z'
+  description: No description
+  id: 066602a2-b19e-48a9-9420-975a06b6bfc2
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorageSwiftDeployment-prz3bir4nutc/066602a2-b19e-48a9-9420-975a06b6bfc2',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-ObjectStorageSwiftDeployment-prz3bir4nutc
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:10Z'
+- creation_time: '2015-07-27T02:52:45Z'
+  description: No description
+  id: e8d90c93-4274-485b-946c-0f06b61589e2
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerClusterDeployment-xz2o6dbuz6cz/e8d90c93-4274-485b-946c-0f06b61589e2',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-ControllerClusterDeployment-xz2o6dbuz6cz
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:11Z'
+- creation_time: '2015-07-27T02:52:43Z'
+  description: All Nodes Config for Puppet
+  id: eb5e96c9-86a6-4052-8716-c69eb904c5db
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-allNodesConfig-hxsugtckqzuw/eb5e96c9-86a6-4052-8716-c69eb904c5db',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-allNodesConfig-hxsugtckqzuw
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:10Z'
+- creation_time: '2015-07-27T02:52:42Z'
+  description: No description
+  id: e3b71d48-7c78-4961-8db0-8efd7a5aaff4
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerSwiftDeployment-cbh2lfhrgulm/e3b71d48-7c78-4961-8db0-8efd7a5aaff4',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-ControllerSwiftDeployment-cbh2lfhrgulm
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:12Z'
+- creation_time: '2015-07-27T02:52:42Z'
+  description: No description
+  id: 7b997c44-2f4f-41e4-ba06-07b782486ee7
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerBootstrapNodeDeployment-2pig2m26cbwt/7b997c44-2f4f-41e4-ba06-07b782486ee7',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-ControllerBootstrapNodeDeployment-2pig2m26cbwt
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:17Z'
+- creation_time: '2015-07-27T02:52:40Z'
+  description: No description
+  id: 75a0c4dc-1674-4ef3-a04d-4e08a16c6fd8
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-VipDeployment-wfjy2hah2432/75a0c4dc-1674-4ef3-a04d-4e08a16c6fd8',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-VipDeployment-wfjy2hah2432
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:05Z'
+- creation_time: '2015-07-27T02:52:39Z'
+  description: Bootstrap Config Puppet
+  id: 47424937-98d4-4698-9751-a3669c07ec99
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerBootstrapNodeConfig-u7kxctetxrj2/47424937-98d4-4698-9751-a3669c07ec99',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-ControllerBootstrapNodeConfig-u7kxctetxrj2
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:06Z'
+- creation_time: '2015-07-27T02:52:38Z'
+  description: Swift Devices and Proxy Config for Puppet
+  id: dbb602b4-a8d3-4975-a437-ee3b10dd343c
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-SwiftDevicesAndProxyConfig-bjg22xruz4eq/dbb602b4-a8d3-4975-a437-ee3b10dd343c',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-SwiftDevicesAndProxyConfig-bjg22xruz4eq
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:05Z'
+- creation_time: '2015-07-27T02:52:37Z'
+  description: No description
+  id: d32fa083-7b92-4ac4-90a0-675046c40ad0
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ControllerIpListMap-xlwerb3usolw/d32fa083-7b92-4ac4-90a0-675046c40ad0',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-ControllerIpListMap-xlwerb3usolw
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:35:07Z'
+- creation_time: '2015-07-27T02:52:34Z'
+  description: Noop Extra Pre-Deployment Config
+  id: f3dc73ce-67fa-4b7a-8445-ea7c48436996
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-ControllerExtraConfigPre-h3ner334jqwp/f3dc73ce-67fa-4b7a-8445-ea7c48436996',
+    rel: self}
+  parent: c68bdef7-c312-4b07-8519-c1d687a50e94
+  stack_name: overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-ControllerExtraConfigPre-h3ner334jqwp
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:45Z'
+- creation_time: '2015-07-27T02:46:29Z'
+  description: 'Software Config to drive os-net-config for a simple bridge.
+
+    '
+  id: 3ca88919-061b-42b8-a9a0-7a9e85347bff
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NetworkConfig-gcb6qxm2xft5/3ca88919-061b-42b8-a9a0-7a9e85347bff',
+    rel: self}
+  parent: c68bdef7-c312-4b07-8519-c1d687a50e94
+  stack_name: overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NetworkConfig-gcb6qxm2xft5
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:38Z'
+- creation_time: '2015-07-27T02:46:28Z'
+  description: No description
+  id: a98e50e8-a3c2-4db5-88d6-3f1cb9484133
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NetIpMap-23mf6plhd3v2/a98e50e8-a3c2-4db5-88d6-3f1cb9484133',
+    rel: self}
+  parent: c68bdef7-c312-4b07-8519-c1d687a50e94
+  stack_name: overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NetIpMap-23mf6plhd3v2
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:40Z'
+- creation_time: '2015-07-27T02:46:28Z'
+  description: No description
+  id: 0475ec13-adde-41d8-8706-4cfb5e334e74
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NetIpSubnetMap-kmvjzmyq2yac/0475ec13-adde-41d8-8706-4cfb5e334e74',
+    rel: self}
+  parent: c68bdef7-c312-4b07-8519-c1d687a50e94
+  stack_name: overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NetIpSubnetMap-kmvjzmyq2yac
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:39Z'
+- creation_time: '2015-07-27T02:46:26Z'
+  description: 'Software Config to no-op for os-net-config. Using this will allow
+    you to use the parameter driven (init-neutron-ovs) configuration instead.
+
+    '
+  id: c656d5bd-6242-43af-911f-97045d260853
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-NetworkConfig-jsgrs5ws6oee/c656d5bd-6242-43af-911f-97045d260853',
+    rel: self}
+  parent: e6cf17c9-55fb-4209-83a5-78b059cbbf0e
+  stack_name: overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-NetworkConfig-jsgrs5ws6oee
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:33Z'
+- creation_time: '2015-07-27T02:46:25Z'
+  description: 'Returns the control plane port (provisioning network) as the ip_address.
+
+    '
+  id: 51a33987-6670-42df-af16-6d165e3e1665
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-StorageMgmtPort-dajvl3vurylg/51a33987-6670-42df-af16-6d165e3e1665',
+    rel: self}
+  parent: c68bdef7-c312-4b07-8519-c1d687a50e94
+  stack_name: overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-StorageMgmtPort-dajvl3vurylg
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:33Z'
+- creation_time: '2015-07-27T02:46:24Z'
+  description: No description
+  id: b19c89f1-0be3-4d6b-8de6-50bd2b48c542
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-NetIpMap-mch4czzfooqe/b19c89f1-0be3-4d6b-8de6-50bd2b48c542',
+    rel: self}
+  parent: e6cf17c9-55fb-4209-83a5-78b059cbbf0e
+  stack_name: overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-NetIpMap-mch4czzfooqe
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:35Z'
+- creation_time: '2015-07-27T02:46:24Z'
+  description: 'Creates a port for a VIP on the undercloud ctlplane network.
+
+    '
+  id: 435b6be2-15b0-4226-9c1a-2dff72a23da0
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-ExternalPort-b636bihajspu/435b6be2-15b0-4226-9c1a-2dff72a23da0',
+    rel: self}
+  parent: c68bdef7-c312-4b07-8519-c1d687a50e94
+  stack_name: overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-ExternalPort-b636bihajspu
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:29Z'
+- creation_time: '2015-07-27T02:46:23Z'
+  description: 'Returns the control plane port (provisioning network) as the ip_address.
+
+    '
+  id: 8e2f3f97-0d21-4b89-83b1-0eab12341d14
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-StoragePort-dirnc6htl2rq/8e2f3f97-0d21-4b89-83b1-0eab12341d14',
+    rel: self}
+  parent: c68bdef7-c312-4b07-8519-c1d687a50e94
+  stack_name: overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-StoragePort-dirnc6htl2rq
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:27Z'
+- creation_time: '2015-07-27T02:46:22Z'
+  description: 'Returns the control plane port (provisioning network) as the ip_address.
+
+    '
+  id: 2f76a0de-c5d4-4c8f-aac6-eaa647f31721
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-InternalApiPort-un7sojyg5kyo/2f76a0de-c5d4-4c8f-aac6-eaa647f31721',
+    rel: self}
+  parent: c68bdef7-c312-4b07-8519-c1d687a50e94
+  stack_name: overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-InternalApiPort-un7sojyg5kyo
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:24Z'
+- creation_time: '2015-07-27T02:46:21Z'
+  description: 'Returns the control plane port (provisioning network) as the ip_address.
+
+    '
+  id: b3b6de19-e3e3-4a8d-8583-d90362707040
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-TenantPort-4kou5ci5rsv6/b3b6de19-e3e3-4a8d-8583-d90362707040',
+    rel: self}
+  parent: c68bdef7-c312-4b07-8519-c1d687a50e94
+  stack_name: overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-TenantPort-4kou5ci5rsv6
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:31Z'
+- creation_time: '2015-07-27T02:46:20Z'
+  description: 'Returns the control plane port (provisioning network) as the ip_address.
+
+    '
+  id: f76f073c-771b-4fef-8957-d72f43b319e9
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-InternalApiPort-fk7eildp4rwk/f76f073c-771b-4fef-8957-d72f43b319e9',
+    rel: self}
+  parent: e6cf17c9-55fb-4209-83a5-78b059cbbf0e
+  stack_name: overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-InternalApiPort-fk7eildp4rwk
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:25Z'
+- creation_time: '2015-07-27T02:46:20Z'
+  description: 'Returns the control plane port (provisioning network) as the ip_address.
+
+    '
+  id: a2c5ce25-cce5-4e8d-8515-04535358d09b
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-StoragePort-moum2vtqhix5/a2c5ce25-cce5-4e8d-8515-04535358d09b',
+    rel: self}
+  parent: e6cf17c9-55fb-4209-83a5-78b059cbbf0e
+  stack_name: overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-StoragePort-moum2vtqhix5
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:30Z'
+- creation_time: '2015-07-27T02:46:18Z'
+  description: 'Returns the control plane port (provisioning network) as the ip_address.
+
+    '
+  id: b3f7e855-e425-4bea-a5e6-f19aaa2710ab
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-TenantPort-fkiksbx65dtp/b3f7e855-e425-4bea-a5e6-f19aaa2710ab',
+    rel: self}
+  parent: e6cf17c9-55fb-4209-83a5-78b059cbbf0e
+  stack_name: overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-TenantPort-fkiksbx65dtp
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:28Z'
+- creation_time: '2015-07-27T02:46:13Z'
+  description: 'This is a default no-op template which provides empty user-data which
+    can be passed to the OS::Nova::Server resources. This template can be replaced
+    with a different implementation via the resource registry, such that deployers
+    may customize their first-boot configuration.
+
+    '
+  id: ea98f006-e508-4ef5-aae7-5399db65cbb6
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NodeUserData-m4h6jzyxmyhi/ea98f006-e508-4ef5-aae7-5399db65cbb6',
+    rel: self}
+  parent: c68bdef7-c312-4b07-8519-c1d687a50e94
+  stack_name: overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-NodeUserData-m4h6jzyxmyhi
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:15Z'
+- creation_time: '2015-07-27T02:46:12Z'
+  description: 'This is a default no-op template which provides empty user-data which
+    can be passed to the OS::Nova::Server resources. This template can be replaced
+    with a different implementation via the resource registry, such that deployers
+    may customize their first-boot configuration.
+
+    '
+  id: 2cf9e871-42ee-4eec-ab12-8a4890cc3638
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-NodeUserData-gvbjfhqm7njt/2cf9e871-42ee-4eec-ab12-8a4890cc3638',
+    rel: self}
+  parent: e6cf17c9-55fb-4209-83a5-78b059cbbf0e
+  stack_name: overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-NodeUserData-gvbjfhqm7njt
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:15Z'
+- creation_time: '2015-07-27T02:46:11Z'
+  description: 'Software-config for performing package updates using yum
+
+    '
+  id: b2a976b7-6119-42cb-8f73-a7281ed0af01
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-UpdateConfig-x4an5o3tulrd/b2a976b7-6119-42cb-8f73-a7281ed0af01',
+    rel: self}
+  parent: e6cf17c9-55fb-4209-83a5-78b059cbbf0e
+  stack_name: overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni-UpdateConfig-x4an5o3tulrd
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:14Z'
+- creation_time: '2015-07-27T02:46:11Z'
+  description: 'Software-config for performing package updates using yum
+
+    '
+  id: 92310216-eb36-41b6-a617-c9596f00fd35
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-UpdateConfig-s7jmk77hjkni/92310216-eb36-41b6-a617-c9596f00fd35',
+    rel: self}
+  parent: c68bdef7-c312-4b07-8519-c1d687a50e94
+  stack_name: overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj-UpdateConfig-s7jmk77hjkni
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:14Z'
+- creation_time: '2015-07-27T02:46:10Z'
+  description: 'OpenStack hypervisor node configured via Puppet.
+
+    '
+  id: e6cf17c9-55fb-4209-83a5-78b059cbbf0e
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni/e6cf17c9-55fb-4209-83a5-78b059cbbf0e',
+    rel: self}
+  parent: cf1ae961-a4d4-4af1-b234-7c3af895604f
+  stack_name: overcloud-Compute-ttpfz3642ggl-0-i5lvlvqm5sni
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:07Z'
+- creation_time: '2015-07-27T02:46:10Z'
+  description: 'OpenStack controller node configured by Puppet.
+
+    '
+  id: c68bdef7-c312-4b07-8519-c1d687a50e94
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj/c68bdef7-c312-4b07-8519-c1d687a50e94',
+    rel: self}
+  parent: 9f20ac27-6443-4864-af29-d324e5f75821
+  stack_name: overcloud-Controller-zlwd6bu2vcn7-0-xyh3gfmlaoxj
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:06Z'
+- creation_time: '2015-07-27T02:46:09Z'
+  description: No description
+  id: cf1ae961-a4d4-4af1-b234-7c3af895604f
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Compute-ttpfz3642ggl/cf1ae961-a4d4-4af1-b234-7c3af895604f',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-Compute-ttpfz3642ggl
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:02Z'
+- creation_time: '2015-07-27T02:46:08Z'
+  description: No description
+  id: 9f20ac27-6443-4864-af29-d324e5f75821
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Controller-zlwd6bu2vcn7/9f20ac27-6443-4864-af29-d324e5f75821',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-Controller-zlwd6bu2vcn7
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:00Z'
+- creation_time: '2015-07-27T02:46:07Z'
+  description: No description
+  id: ef47091f-5ce1-4d47-beca-a9d5f766be81
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-BlockStorage-uzbtezcfvrgk/ef47091f-5ce1-4d47-beca-a9d5f766be81',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-BlockStorage-uzbtezcfvrgk
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:34:03Z'
+- creation_time: '2015-07-27T02:46:05Z'
+  description: No description
+  id: 66fa5c89-b419-4901-ae7d-7da9af6c6320
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-VipMap-alvvrdoxqem3/66fa5c89-b419-4901-ae7d-7da9af6c6320',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-VipMap-alvvrdoxqem3
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:58Z'
+- creation_time: '2015-07-27T02:46:03Z'
+  description: 'Returns the control plane port (provisioning network) as the ip_address.
+
+    '
+  id: 5d79ad9c-d106-471b-90b1-892a6e9999e4
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-StorageVirtualIP-krudzeph4phk/5d79ad9c-d106-471b-90b1-892a6e9999e4',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-StorageVirtualIP-krudzeph4phk
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:50Z'
+- creation_time: '2015-07-27T02:46:02Z'
+  description: 'Returns the control plane port (provisioning network) as the ip_address.
+
+    '
+  id: a3ec4d3e-eb38-4b79-9a31-8adf7574f05a
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-InternalApiVirtualIP-b2rwjr3re3be/a3ec4d3e-eb38-4b79-9a31-8adf7574f05a',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-InternalApiVirtualIP-b2rwjr3re3be
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:52Z'
+- creation_time: '2015-07-27T02:46:02Z'
+  description: 'Creates a port for a VIP on the undercloud ctlplane network.
+
+    '
+  id: 169b4498-b436-40bd-8ee3-c92ece2e8fb1
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-PublicVirtualIP-ks7ukbe35shw/169b4498-b436-40bd-8ee3-c92ece2e8fb1',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-PublicVirtualIP-ks7ukbe35shw
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:54Z'
+- creation_time: '2015-07-27T02:46:01Z'
+  description: 'Returns the control plane port (provisioning network) as the ip_address.
+
+    '
+  id: bb4a5f96-e985-4f55-ad22-c0028a70062a
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-StorageMgmtVirtualIP-zgspoa4ashea/bb4a5f96-e985-4f55-ad22-c0028a70062a',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-StorageMgmtVirtualIP-zgspoa4ashea
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:54Z'
+- creation_time: '2015-07-27T02:46:01Z'
+  description: 'Creates a port for a VIP on the undercloud ctlplane network.
+
+    '
+  id: 44619bde-e86d-4db5-9884-8f0ec7f1408e
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-RedisVirtualIP-na6wcq4tg2pr/44619bde-e86d-4db5-9884-8f0ec7f1408e',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-RedisVirtualIP-na6wcq4tg2pr
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:52Z'
+- creation_time: '2015-07-27T02:45:59Z'
+  description: No description
+  id: f459c26e-2bc3-411d-aa3b-85012f09fe78
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-CephStorage-o2iiczjzog46/f459c26e-2bc3-411d-aa3b-85012f09fe78',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-CephStorage-o2iiczjzog46
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:46Z'
+- creation_time: '2015-07-27T02:45:58Z'
+  description: No description
+  id: b5b0f64c-09a1-4021-8c9b-1c0f3d59a83d
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-ObjectStorage-7457cba7n3j5/b5b0f64c-09a1-4021-8c9b-1c0f3d59a83d',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-ObjectStorage-7457cba7n3j5
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:46Z'
+- creation_time: '2015-07-27T02:45:56Z'
+  description: A stack which creates no network(s).
+  id: 66af5d2e-b1d3-4362-acbf-0495e6745be3
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq-ExternalNetwork-hy5sxcnseg5x/66af5d2e-b1d3-4362-acbf-0495e6745be3',
+    rel: self}
+  parent: f3da9cac-e459-46e9-be81-add0b183d235
+  stack_name: overcloud-Networks-2n7ewmhkibtq-ExternalNetwork-hy5sxcnseg5x
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:39Z'
+- creation_time: '2015-07-27T02:45:55Z'
+  description: A stack which creates no network(s).
+  id: ab569733-5707-4a0a-91be-e78bfe1bf799
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq-StorageNetwork-q4yawodxs2x6/ab569733-5707-4a0a-91be-e78bfe1bf799',
+    rel: self}
+  parent: f3da9cac-e459-46e9-be81-add0b183d235
+  stack_name: overcloud-Networks-2n7ewmhkibtq-StorageNetwork-q4yawodxs2x6
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:42Z'
+- creation_time: '2015-07-27T02:45:55Z'
+  description: A stack which creates no network(s).
+  id: 7f39feb2-bc97-401d-a1fc-852c346f4048
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq-TenantNetwork-lr3vtwgjn6qx/7f39feb2-bc97-401d-a1fc-852c346f4048',
+    rel: self}
+  parent: f3da9cac-e459-46e9-be81-add0b183d235
+  stack_name: overcloud-Networks-2n7ewmhkibtq-TenantNetwork-lr3vtwgjn6qx
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:39Z'
+- creation_time: '2015-07-27T02:45:54Z'
+  description: A stack which creates no network(s).
+  id: 1bbd8565-1e72-4d18-a8d3-b75d141cb57f
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq-InternalNetwork-lg4culqdnjy6/1bbd8565-1e72-4d18-a8d3-b75d141cb57f',
+    rel: self}
+  parent: f3da9cac-e459-46e9-be81-add0b183d235
+  stack_name: overcloud-Networks-2n7ewmhkibtq-InternalNetwork-lg4culqdnjy6
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:38Z'
+- creation_time: '2015-07-27T02:45:53Z'
+  description: A stack which creates no network(s).
+  id: ef3a5206-92d0-42cf-800a-36443e350a8f
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq-StorageMgmtNetwork-3k3xo44vb4sh/ef3a5206-92d0-42cf-800a-36443e350a8f',
+    rel: self}
+  parent: f3da9cac-e459-46e9-be81-add0b183d235
+  stack_name: overcloud-Networks-2n7ewmhkibtq-StorageMgmtNetwork-3k3xo44vb4sh
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:40Z'
+- creation_time: '2015-07-27T02:45:53Z'
+  description: 'Configure hieradata for service -> virtual IP mappings.
+
+    '
+  id: 2d30b916-c101-45e5-bf16-d3ff1e6a9b5e
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-VipConfig-xlqy4325vjze/2d30b916-c101-45e5-bf16-d3ff1e6a9b5e',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-VipConfig-xlqy4325vjze
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:38Z'
+- creation_time: '2015-07-27T02:45:52Z'
+  description: Create networks to split out Overcloud traffic
+  id: f3da9cac-e459-46e9-be81-add0b183d235
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud-Networks-2n7ewmhkibtq/f3da9cac-e459-46e9-be81-add0b183d235',
+    rel: self}
+  parent: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  stack_name: overcloud-Networks-2n7ewmhkibtq
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:38Z'
+- creation_time: '2015-07-27T02:45:49Z'
+  description: 'Nova API,Keystone,Heat Engine and API,Glance,Neutron,Dedicated MySQL
+    server,Dedicated RabbitMQ Server,Group of Nova Computes
+
+    '
+  id: 88c893d1-3baa-4ebb-9625-82815a66b32f
+  links:
+  - {href: 'http://192.0.2.1:8004/v1/0aa1b0366c7d4087bd60928fb3ac8724/stacks/overcloud/88c893d1-3baa-4ebb-9625-82815a66b32f',
+    rel: self}
+  parent: null
+  stack_name: overcloud
+  stack_owner: admin
+  stack_status: UPDATE_COMPLETE
+  stack_status_reason: Stack successfully updated
+  stack_user_project_id: 1180b377211747948b61e8c8646b2bea
+  updated_time: '2015-07-27T03:33:25Z'
+
